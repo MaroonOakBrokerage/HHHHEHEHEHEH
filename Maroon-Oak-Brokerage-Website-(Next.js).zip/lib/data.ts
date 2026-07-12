@@ -1010,11 +1010,6 @@ export const industries: {
   description: string;
   href: string;
   imageKey: keyof typeof heroImages;
-export const industries: {
-  label: string;
-  description: string;
-  href: string;
-  imageKey: keyof typeof heroImages;
 }[] = [
   {
     label: "General Contractors",
