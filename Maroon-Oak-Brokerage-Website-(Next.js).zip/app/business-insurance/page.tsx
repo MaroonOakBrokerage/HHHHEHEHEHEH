@@ -24,18 +24,23 @@ export default function BusinessInsurancePage() {
         subtitle="From a first-year LLC to an established commercial operation, we match coverage to your real risk — not a one-size-fits-all package."
       />
 
-      <ImageSplit
-        image={heroImages.retailShopkeeper}
-        eyebrow="Meet Businesses Like Yours"
-        title="We Understand How You Actually Operate"
-      >
-        <p>
-          From a solo contractor running a truck and a crew to a multi-location retail operation, we start every
-          conversation by understanding your real risk &mdash; the jobs you take, the people you employ, and the
-          property you depend on &mdash; before we ever talk policy.
-        </p>
-      </ImageSplit>
+     <ImageSplit
+  image={heroImages.businessTeamMeeting}
+  eyebrow="Coverage Built Around Your Business"
+  title="Insurance That Matches How You Actually Operate"
+>
+  <p>
+    Every business carries different risks. We take time to understand your
+    employees, vehicles, property, contracts, equipment, and day-to-day
+    operations before recommending coverage.
+  </p>
 
+  <p>
+    Whether you run a contracting company, restaurant, retail store,
+    professional office, or growing commercial operation, we build an
+    insurance program around the way your business truly works.
+  </p>
+</ImageSplit>
       <section className="bg-white py-24">
         <div className="mx-auto max-w-[1200px] px-8">
           <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Find Your Industry</p>
