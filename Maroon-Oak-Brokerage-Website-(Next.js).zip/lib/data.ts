@@ -1062,7 +1062,7 @@ export const lifeEvents: {
     description:
       "Making sure a new car, truck, or SUV is covered correctly from day one.",
     href: "/personal-insurance#auto",
-    imageKey: "autoDrive",
+    imageKey: "homeExterior",
   },
   {
     label: "Getting Married",
