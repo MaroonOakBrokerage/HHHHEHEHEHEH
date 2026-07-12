@@ -268,7 +268,6 @@ export const heroImages = {
 
 export type HeroImage =
   (typeof heroImages)[keyof typeof heroImages];
-} as const;
 // Shared coverage-line option lists used by both the hero toggle and the
 // expanded quote form, so the two stay in sync.
 export const personalCoverageOptions = [
