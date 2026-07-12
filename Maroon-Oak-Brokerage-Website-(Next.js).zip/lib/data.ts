@@ -961,23 +961,105 @@ export const lifeEvents: {
   },
 ];
 
-// Industry cards on the Business Insurance page ("Find Your Industry").
-export const industries: { label: string; description: string; href: string; imageKey?: keyof typeof heroImages }[] = [
-  { label: "General Contractors", description: "Coverage for every phase of a job, from groundbreak to final walkthrough.", href: "/business-insurance#general-liability", imageKey: "contractorSite" },
-  { label: "Plumbers", description: "Liability and tool coverage built for work inside someone else's property.", href: "/business-insurance#general-liability" },
-  { label: "Electricians", description: "Protection against the higher-stakes risks of electrical work.", href: "/business-insurance#general-liability", imageKey: "contractorPortrait" },
-  { label: "HVAC", description: "Coverage for installation, service calls, and the equipment you rely on.", href: "/business-insurance#inland-marine" },
-  { label: "Roofers", description: "Protection during construction and the risks that come with height.", href: "/business-insurance#builders-risk" },
-  { label: "Landscapers", description: "Equipment and liability coverage for crews and gear on the move.", href: "/business-insurance#inland-marine" },
-  { label: "Painters", description: "Liability coverage built around interior and exterior project work.", href: "/business-insurance#general-liability" },
-  { label: "Commercial Real Estate", description: "Property and liability coverage for owned or managed buildings.", href: "/business-insurance#commercial-property", imageKey: "officeMeeting" },
-  { label: "Restaurants", description: "A bundled policy built for kitchens, dining rooms, and foot traffic.", href: "/business-insurance#bop" },
-  { label: "Retail", description: "Coverage for inventory, storefronts, and customer-facing risk.", href: "/business-insurance#bop" },
-  { label: "Professional Services", description: "Errors & omissions coverage for the advice and services you provide.", href: "/business-insurance#professional-liability" },
-  { label: "Manufacturing", description: "Property and equipment coverage for production and warehousing.", href: "/business-insurance#commercial-property", imageKey: "warehouse" },
-  { label: "Trucking / Fleet", description: "Commercial auto coverage built for businesses on the road.", href: "/business-insurance#commercial-auto" },
+// Industry cards on the Business Insurance page.
+export const industries: {
+  label: string;
+  description: string;
+  href: string;
+  imageKey: keyof typeof heroImages;
+}[] = [
+  {
+    label: "General Contractors",
+    description:
+      "Coverage for every phase of a job, from groundbreaking to final walkthrough.",
+    href: "/business-insurance#general-liability",
+    imageKey: "contractorSite",
+  },
+  {
+    label: "Plumbers",
+    description:
+      "Liability and tool coverage built for work inside someone else's property.",
+    href: "/business-insurance#general-liability",
+    imageKey: "modernKitchen",
+  },
+  {
+    label: "Electricians",
+    description:
+      "Protection against the higher-stakes risks of electrical work.",
+    href: "/business-insurance#general-liability",
+    imageKey: "contractorPortrait",
+  },
+  {
+    label: "HVAC",
+    description:
+      "Coverage for installation, service calls, and the equipment you rely on.",
+    href: "/business-insurance#inland-marine",
+    imageKey: "industrialDrone",
+  },
+  {
+    label: "Roofers",
+    description:
+      "Protection during construction and the risks that come with height.",
+    href: "/business-insurance#builders-risk",
+    imageKey: "roofRestoration",
+  },
+  {
+    label: "Landscapers",
+    description:
+      "Equipment and liability coverage for crews and gear on the move.",
+    href: "/business-insurance#inland-marine",
+    imageKey: "homeExterior",
+  },
+  {
+    label: "Painters",
+    description:
+      "Liability coverage built around interior and exterior project work.",
+    href: "/business-insurance#general-liability",
+    imageKey: "contractorSite",
+  },
+  {
+    label: "Commercial Real Estate",
+    description:
+      "Property and liability coverage for owned or managed buildings.",
+    href: "/business-insurance#commercial-property",
+    imageKey: "officeMeeting",
+  },
+  {
+    label: "Restaurants",
+    description:
+      "A bundled policy built for kitchens, dining rooms, and customer traffic.",
+    href: "/business-insurance#bop",
+    imageKey: "retailShopkeeper",
+  },
+  {
+    label: "Retail",
+    description:
+      "Coverage for inventory, storefronts, and customer-facing risk.",
+    href: "/business-insurance#bop",
+    imageKey: "businessOwnerBoutique",
+  },
+  {
+    label: "Professional Services",
+    description:
+      "Errors and omissions coverage for the advice and services you provide.",
+    href: "/business-insurance#professional-liability",
+    imageKey: "advisorConversation",
+  },
+  {
+    label: "Manufacturing",
+    description:
+      "Property and equipment coverage for production and warehousing.",
+    href: "/business-insurance#commercial-property",
+    imageKey: "warehouse",
+  },
+  {
+    label: "Trucking / Fleet",
+    description:
+      "Commercial auto coverage built for businesses on the road.",
+    href: "/business-insurance#commercial-auto",
+    imageKey: "warehouseBoxes",
+  },
 ];
-
 // Guided explorer tiles for the homepage "What Are You Looking to Protect?" section.
 export const explorerTiles = [
   { label: "Home", description: "Homeowners, condo, and renters coverage for where you live.", href: "/personal-insurance#home" },
