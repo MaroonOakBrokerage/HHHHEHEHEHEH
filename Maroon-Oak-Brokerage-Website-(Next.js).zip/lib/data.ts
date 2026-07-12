@@ -242,9 +242,9 @@ export const heroImages = {
   },
 
   plumberWorking: {
-    url: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=2200&q=85",
-    alt: "Service professional completing plumbing repair work",
-    credit: "Unsplash",
+    url: "https://unsplash.com/photos/c314Gh8dXAo/download?force=true&w=2200",
+    alt: "Professional plumber repairing pipes inside a building",
+    credit: "Timur Shakerzianov / Unsplash",
   },
 
   electricianWorking: {
@@ -336,6 +336,18 @@ export const heroImages = {
     alt: "Commercial semi-truck operating on a highway",
     credit: "Unsplash",
   },
+  autoDrive: {
+    url: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=85",
+    alt: "Modern passenger vehicle on the road",
+    credit: "Unsplash",
+  },
+
+  rentersApartment: {
+    url: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2200&q=85",
+    alt: "Bright modern apartment interior for a renter",
+    credit: "Unsplash",
+  },
+
 } as const;
 
 export type HeroImage =
@@ -1062,7 +1074,7 @@ export const lifeEvents: {
     description:
       "Making sure a new car, truck, or SUV is covered correctly from day one.",
     href: "/personal-insurance#auto",
-    imageKey: "homeExterior",
+    imageKey: "autoDrive",
   },
   {
     label: "Getting Married",
@@ -1119,16 +1131,16 @@ export const industries: {
   { label: "General Contractors", description: "Coverage for jobsite liability, tools, equipment, vehicles, employees, and completed operations.", href: "/business-insurance#general-liability", imageKey: "contractorSite" },
   { label: "Plumbers", description: "Liability, tools, equipment, vehicles, and completed-operations coverage for plumbing contractors.", href: "/business-insurance#general-liability", imageKey: "plumberWorking" },
   { label: "Electricians", description: "Protection for electrical work, tools, service vehicles, employees, and jobsite liability.", href: "/business-insurance#general-liability", imageKey: "electricianWorking" },
-  { label: "HVAC", description: "Coverage for HVAC installation, repairs, service vehicles, tools, and specialized equipment.", href: "/business-insurance#inland-marine", imageKey: "hvacSystem" },
-  { label: "Roofers", description: "Protection for roofing crews, equipment, jobsite liability, and working-at-height risks.", href: "/business-insurance#builders-risk", imageKey: "roofRestoration" },
+  { label: "HVAC", description: "Coverage for HVAC installation, repairs, service vehicles, tools, and specialized equipment.", href: "/business-insurance#inland-marine", imageKey: "hvacTechnician" },
+  { label: "Roofers", description: "Protection for roofing crews, equipment, jobsite liability, and working-at-height risks.", href: "/business-insurance#builders-risk", imageKey: "rooferWorking" },
   { label: "Landscapers", description: "Liability, equipment, trailers, vehicles, and property coverage for landscaping businesses.", href: "/business-insurance#inland-marine", imageKey: "landscaperWorking" },
   { label: "Painters", description: "Liability, equipment, vehicle, and completed-operations coverage for painting contractors.", href: "/business-insurance#general-liability", imageKey: "painterWorking" },
-  { label: "Commercial Real Estate", description: "Property and liability protection for commercial buildings, landlords, and property managers.", href: "/business-insurance#commercial-property", imageKey: "dataCenterAerial" },
+  { label: "Commercial Real Estate", description: "Property and liability protection for commercial buildings, landlords, and property managers.", href: "/business-insurance#commercial-property", imageKey: "officeBuilding" },
   { label: "Restaurants", description: "Coverage for kitchens, dining areas, employees, equipment, spoilage, and customer-facing risks.", href: "/business-insurance#bop", imageKey: "restaurantInterior" },
   { label: "Retail", description: "Protection for storefronts, inventory, equipment, employees, and customer-facing liability.", href: "/business-insurance#bop", imageKey: "retailStorefront" },
   { label: "Professional Services", description: "Professional liability, cyber, property, and business coverage for firms providing advice or services.", href: "/business-insurance#professional-liability", imageKey: "officeMeeting" },
-  { label: "Manufacturing", description: "Property, equipment, product liability, workers compensation, and operational coverage.", href: "/business-insurance#commercial-property", imageKey: "warehouse" },
-  { label: "Trucking / Fleet", description: "Commercial auto, liability, cargo, physical damage, and fleet protection for businesses on the road.", href: "/business-insurance#commercial-auto", imageKey: "truckingFleet" },
+  { label: "Manufacturing", description: "Property, equipment, product liability, workers compensation, and operational coverage.", href: "/business-insurance#commercial-property", imageKey: "manufacturingPlant" },
+  { label: "Trucking / Fleet", description: "Commercial auto, liability, cargo, physical damage, and fleet protection for businesses on the road.", href: "/business-insurance#commercial-auto", imageKey: "semiTruck" },
 ];
 
 // Guided explorer tiles for the homepage "What Are You Looking to Protect?" section.
