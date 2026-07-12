@@ -1050,14 +1050,62 @@ export const lifeEvents: {
   href: string;
   imageKey: keyof typeof heroImages;
 }[] = [
-  { label: "Buying a Home", description: "Protecting a new home and everything that comes with owning it.", href: "/personal-insurance#home", imageKey: "homeExterior" },
-  { label: "New Vehicle", description: "Making sure a new car, truck, or SUV is covered correctly from day one.", href: "/personal-insurance#auto", imageKey: "autoDrive" },
-  { label: "Getting Married", description: "Combining households, policies, and long-term plans under one roof.", href: "/personal-insurance#umbrella", imageKey: "advisorConversation" },
-  { label: "Growing Family", description: "Life insurance and coverage that grows as your household changes.", href: "/personal-insurance#life", imageKey: "lifeFamily" },
-  { label: "First Apartment", description: "Affordable protection for your belongings and liability as a renter.", href: "/personal-insurance#renters", imageKey: "rentersApartment" },
-  { label: "College Student", description: "Coverage for belongings and vehicles while living away from home.", href: "/personal-insurance#renters", imageKey: "planningSession" },
-  { label: "Boat or RV", description: "Protection built for time on the water or the open road.", href: "/personal-insurance#rv", imageKey: "rvTravel" },
-  { label: "Building Long-Term Protection", description: "Umbrella and life coverage that protects what you have built.", href: "/personal-insurance#umbrella", imageKey: "jewelryWatch" },
+  {
+    label: "Buying a Home",
+    description:
+      "Protecting a new home and everything that comes with owning it.",
+    href: "/personal-insurance#home",
+    imageKey: "homeExterior",
+  },
+  {
+    label: "New Vehicle",
+    description:
+      "Making sure a new car, truck, or SUV is covered correctly from day one.",
+    href: "/personal-insurance#auto",
+    imageKey: "autoDrive",
+  },
+  {
+    label: "Getting Married",
+    description:
+      "Combining households, policies, and long-term plans under one roof.",
+    href: "/personal-insurance#umbrella",
+    imageKey: "weddingCouple",
+  },
+  {
+    label: "Growing Family",
+    description:
+      "Life insurance and coverage that grows as your household changes.",
+    href: "/personal-insurance#life",
+    imageKey: "lifeFamily",
+  },
+  {
+    label: "First Apartment",
+    description:
+      "Affordable protection for your belongings and liability as a renter.",
+    href: "/personal-insurance#renters",
+    imageKey: "rentersApartment",
+  },
+  {
+    label: "College Student",
+    description:
+      "Coverage for belongings and vehicles while living away from home.",
+    href: "/personal-insurance#renters",
+    imageKey: "planningSession",
+  },
+  {
+    label: "Boat or RV",
+    description:
+      "Protection built for time on the water or the open road.",
+    href: "/personal-insurance#rv",
+    imageKey: "boatLake",
+  },
+  {
+    label: "Building Long-Term Protection",
+    description:
+      "Umbrella and life coverage that protects what you've built.",
+    href: "/personal-insurance#umbrella",
+    imageKey: "familyDreamHome",
+  },
 ];
 
 // Industry cards on the Business Insurance page ("Find Your Industry").
