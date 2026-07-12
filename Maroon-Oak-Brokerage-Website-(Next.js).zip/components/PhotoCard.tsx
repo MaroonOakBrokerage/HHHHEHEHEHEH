@@ -32,7 +32,7 @@ export default function PhotoCard({
             sizes="(max-width: 768px) 50vw, 25vw"
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.08]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink/92 via-ink/40 to-transparent transition-colors duration-500 group-hover:from-ink/95" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent transition-colors duration-500 group-hover:from-black/20" />
         </>
       ) : (
         <div className="absolute inset-0 bg-gradient-to-br from-maroon-deep to-maroon transition-transform duration-700 ease-out group-hover:scale-[1.08]">
