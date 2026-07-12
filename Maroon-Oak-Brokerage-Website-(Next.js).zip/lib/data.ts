@@ -254,10 +254,10 @@ export const heroImages = {
   },
 
   hvacTechnician: {
-    url: "https://images.unsplash.com/photo-1631545806609-5c8f8903f2cf?auto=format&fit=crop&w=2200&q=85",
-    alt: "HVAC technician servicing heating and cooling equipment",
-    credit: "Unsplash",
-  },
+  url: "...",
+  alt: "HVAC technician servicing heating and cooling equipment",
+  credit: "Unsplash",
+},
 
   hvacSystem: {
     url: "https://images.unsplash.com/photo-1631545806609-5c8f8903f2cf?auto=format&fit=crop&w=2200&q=85",
@@ -270,12 +270,11 @@ export const heroImages = {
     alt: "Professional landscaper maintaining a residential property",
     credit: "Unsplash",
   },
-
-  painterWorking: {
-    url: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=2200&q=85",
-    alt: "Professional painter applying paint to an interior wall",
-    credit: "Unsplash",
-  },
+painterWorking: {
+  url: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=2200&q=85",
+  alt: "Professional painter applying paint with a roller",
+  credit: "Unsplash",
+},
 
   truckingFleet: {
     url: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2400&q=85",
@@ -326,9 +325,9 @@ export const heroImages = {
   },
 
   manufacturingPlant: {
-    url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2200&q=85",
-    alt: "Manufacturing plant with industrial equipment",
-    credit: "Unsplash",
+  url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2200&q=85",
+  alt: "Modern manufacturing facility with industrial machinery",
+  credit: "Unsplash",
   },
 
   semiTruck: {
