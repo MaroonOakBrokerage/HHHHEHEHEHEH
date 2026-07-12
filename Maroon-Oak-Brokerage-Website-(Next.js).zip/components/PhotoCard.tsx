@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { ComponentType } from "react";
+import type { ComponentType, SVGProps } from "react";
 
 import type { HeroImage } from "@/lib/data";
-import type { IconProps } from "./Icons";
+
+type CardIcon = ComponentType<SVGProps<SVGSVGElement>>;
 
 export default function PhotoCard({
   label,
@@ -16,7 +17,7 @@ export default function PhotoCard({
   description: string;
   href: string;
   image?: HeroImage;
-  Icon?: ComponentType<IconProps>;
+  Icon?: CardIcon;
 }) {
   return (
     <Link
@@ -33,7 +34,7 @@ export default function PhotoCard({
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.08]"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-colors duration-500 group-hover:from-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent transition-colors duration-500 group-hover:from-black/65" />
 
           {Icon && (
             <Icon className="absolute right-5 top-5 z-10 h-9 w-9 stroke-white/70 drop-shadow-md" />
