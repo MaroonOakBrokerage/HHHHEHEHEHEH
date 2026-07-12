@@ -62,145 +62,188 @@ export const trustPoints = [
 // needs to change since every hero pulls from this single source of truth.
 export const heroImages = {
   cityDusk: {
-    url: "https://images.unsplash.com/photo-1666969565832-b55bf42a900d?auto=format&fit=crop&w=2400&q=80",
-    alt: "City skyline at dusk",
-    credit: "Justin Wallace / Unsplash",
+    url: "https://images.unsplash.com/photo-1666969565832-b55bf42a900d?auto=format&fit=crop&w=2400&q=85",
+    alt: "Downtown Austin skyline glowing at sunset",
+    credit: "Unsplash",
   },
-  bridge: {
-    url: "https://images.unsplash.com/photo-1641576369369-870158b0d11b?auto=format&fit=crop&w=2400&q=80",
-    alt: "Long bridge spanning a river into the city",
-    credit: "Steven Pahel / Unsplash",
-  },
-  skylineDay: {
-    url: "https://images.unsplash.com/photo-1611005813863-6c1bc3d3908b?auto=format&fit=crop&w=2400&q=80",
-    alt: "City skyline under a blue sky",
-    credit: "Max Miner / Unsplash",
-  },
-  office: {
-    url: "https://images.unsplash.com/photo-1741682740026-4147b4197806?auto=format&fit=crop&w=2400&q=80",
-    alt: "Modern office overlooking a city skyline",
-    credit: "David Kristianto / Unsplash",
-  },
-  homeExterior: {
-    url: "https://images.unsplash.com/photo-1668911494509-14baf3b42fda?auto=format&fit=crop&w=2000&q=80",
-    alt: "Modern home exterior with a driveway",
-    credit: "Point3D Commercial Imaging Ltd. / Unsplash",
-  },
-  contractorSite: {
-    url: "https://images.unsplash.com/photo-1653280668407-50b18ec4ef42?auto=format&fit=crop&w=2000&q=80",
-    alt: "Construction crew working on a building under construction",
-    credit: "shraga kopstein / Unsplash",
-  },
-  contractorPortrait: {
-    url: "https://images.unsplash.com/photo-1751054571128-30d45eccbe42?auto=format&fit=crop&w=1600&q=80",
-    alt: "Contractor on a jobsite in morning light",
-    credit: "John Kakuk / Unsplash",
-  },
-  officeMeeting: {
-    url: "https://images.unsplash.com/photo-1758518727707-b023e285b709?auto=format&fit=crop&w=2000&q=80",
-    alt: "Business professionals in a meeting in a modern office",
-    credit: "Vitaly Gariev / Unsplash",
-  },
-  livingRoom: {
-    url: "https://images.unsplash.com/photo-1761319914911-71b059a655d8?auto=format&fit=crop&w=2000&q=80",
-    alt: "Cozy living room with fireplace and large windows",
-    credit: "Clay Banks / Unsplash",
-  },
-  warehouse: {
-    url: "https://images.unsplash.com/photo-1645736315000-6f788915923b?auto=format&fit=crop&w=2000&q=80",
-    alt: "Forklift moving pallets in a warehouse",
-    credit: "Bernd Dittrich / Unsplash",
-  },
-  // Round 7 — editorial image pass. Every entry below is used in exactly one
-  // place sitewide so no page or section repeats another's photography.
-  smallTownDusk: {
-    url: "https://images.unsplash.com/photo-1761839259488-2bdeeae794f5?auto=format&fit=crop&w=2400&q=80",
-    alt: "Small town main street lined with local businesses at dusk",
-    credit: "Land O'Lakes, Inc. / Unsplash",
-  },
-  advisorConversation: {
-    url: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=2000&q=80",
-    alt: "Two colleagues in conversation at a table",
-    credit: "Christina @ wocintechchat.com / Unsplash",
-  },
-  planningSession: {
-    url: "https://images.unsplash.com/photo-1758519288948-e3c87d2d78d8?auto=format&fit=crop&w=2000&q=80",
-    alt: "Two colleagues reviewing documents together at a table",
-    credit: "Vitaly Gariev / Unsplash",
-  },
-  dataCenterAerial: {
-    url: "https://images.unsplash.com/photo-1715026323215-a2dbb71272f6?auto=format&fit=crop&w=2400&q=80",
-    alt: "Aerial view of a large commercial industrial building",
-    credit: "Geoffrey Moffett / Unsplash",
-  },
-  modernKitchen: {
-    url: "https://images.unsplash.com/photo-1761656630581-69a58e4e1c09?auto=format&fit=crop&w=2000&q=80",
-    alt: "Bright modern kitchen with wooden cabinets",
-    credit: "Clay Banks / Unsplash",
-  },
-  neighborhoodAerial: {
-    url: "https://images.unsplash.com/photo-1765106893273-980e5bf89a7c?auto=format&fit=crop&w=2000&q=80",
-    alt: "Aerial view of a suburban neighborhood with winding streets",
-    credit: "Ahnaf Tahsin / Unsplash",
-  },
-  claimsHeroRoof: {
-    url: "https://images.unsplash.com/photo-1675522192517-712901192338?auto=format&fit=crop&w=2400&q=80",
-    alt: "Close-up of a home's roofline against a blue sky",
-    credit: "Lucas de Moura / Unsplash",
-  },
-  roofRestoration: {
-    url: "https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=2000&q=80",
-    alt: "Two workers inspecting and repairing a roof",
-    credit: "Raze Solar / Unsplash",
-  },
-  familyBeachSunset: {
-    url: "https://images.unsplash.com/photo-1709216461598-018ae6307dc0?auto=format&fit=crop&w=2000&q=80",
-    alt: "Family walking together on the beach at sunset",
-    credit: "Chris Hardy / Unsplash",
-  },
-  teamOffice: {
-    url: "https://images.unsplash.com/photo-1758873268663-5a362616b5a7?auto=format&fit=crop&w=2000&q=80",
-    alt: "Four colleagues standing together in a modern office",
-    credit: "Vitaly Gariev / Unsplash",
-  },
-  industrialDrone: {
-    url: "https://images.unsplash.com/photo-1479356558243-f9d175b1abea?auto=format&fit=crop&w=2400&q=80",
-    alt: "Drone shot of white industrial buildings",
-    credit: "Jason Schuller / Unsplash",
-  },
-  businessOwnerBoutique: {
-    url: "https://images.unsplash.com/photo-1753161618091-b4cf35b9aa99?auto=format&fit=crop&w=2000&q=80",
-    alt: "Business owner standing in her boutique storefront",
-    credit: "Vitaly Gariev / Unsplash",
-  },
-  warehouseBoxes: {
-    url: "https://images.unsplash.com/photo-1775880306542-57d598d773a0?auto=format&fit=crop&w=2000&q=80",
-    alt: "Shelves filled with packaged boxes in natural light",
-    credit: "Adhitya Sibikumar / Unsplash",
-  },
-  officeWindowRoom: {
-    url: "https://images.unsplash.com/photo-1728581665834-82b3b0320d28?auto=format&fit=crop&w=2000&q=80",
-    alt: "Welcoming office room with a long table and large window",
-    credit: "Annie Spratt / Unsplash",
-  },
-  retailShopkeeper: {
-    url: "https://images.unsplash.com/photo-1759334928681-dc7ad674138e?auto=format&fit=crop&w=2000&q=80",
-    alt: "Shopkeeper standing in a retail storefront",
-    credit: "Alex Boyd / Unsplash",
-  },
-  livingRoomAlt: {
-    url: "https://images.unsplash.com/photo-1551806235-a05dd14a54c7?auto=format&fit=crop&w=2000&q=80",
-    alt: "Bright living room interior in a family home",
-    credit: "Louis Hansel / Unsplash",
-  },
-  laptopNotes: {
-    url: "https://images.unsplash.com/photo-1713947506179-baa795d9c893?auto=format&fit=crop&w=2000&q=80",
-    alt: "Woman taking notes at a laptop",
-    credit: "Vitaly Gariev / Unsplash",
-  },
-};
 
-export type HeroImage = (typeof heroImages)[keyof typeof heroImages];
+  bridge: {
+    url: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?auto=format&fit=crop&w=2400&q=85",
+    alt: "Austin skyline and river viewed near a city bridge",
+    credit: "Unsplash",
+  },
+
+  skylineDay: {
+    url: "https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=2400&q=85",
+    alt: "Modern Texas city skyline during the day",
+    credit: "Unsplash",
+  },
+
+  office: {
+    url: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2200&q=85",
+    alt: "Premium modern office with natural light",
+    credit: "Unsplash",
+  },
+
+  homeExterior: {
+    url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=85",
+    alt: "Beautiful modern family home exterior",
+    credit: "Unsplash",
+  },
+
+  contractorSite: {
+    url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2200&q=85",
+    alt: "Construction professionals working on an active jobsite",
+    credit: "Unsplash",
+  },
+
+  contractorPortrait: {
+    url: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=85",
+    alt: "Construction professional wearing safety equipment on a jobsite",
+    credit: "Unsplash",
+  },
+
+  officeMeeting: {
+    url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+    alt: "Business professionals collaborating in a modern office",
+    credit: "Unsplash",
+  },
+
+  livingRoom: {
+    url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=85",
+    alt: "Warm upscale family living room",
+    credit: "Unsplash",
+  },
+
+  warehouse: {
+    url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2200&q=85",
+    alt: "Large commercial warehouse and logistics facility",
+    credit: "Unsplash",
+  },
+
+  smallTownDusk: {
+    url: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?auto=format&fit=crop&w=2400&q=85",
+    alt: "Welcoming Texas downtown street at dusk",
+    credit: "Unsplash",
+  },
+
+  advisorConversation: {
+    url: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=2200&q=85",
+    alt: "Trusted advisor meeting with a business client",
+    credit: "Unsplash",
+  },
+
+  planningSession: {
+    url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2200&q=85",
+    alt: "Young professionals reviewing plans and documents together",
+    credit: "Unsplash",
+  },
+
+  dataCenterAerial: {
+    url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=85",
+    alt: "Large modern commercial office building",
+    credit: "Unsplash",
+  },
+
+  modernKitchen: {
+    url: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=2200&q=85",
+    alt: "Bright premium kitchen inside a family home",
+    credit: "Unsplash",
+  },
+
+  neighborhoodAerial: {
+    url: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=2200&q=85",
+    alt: "Residential neighborhood and family homes",
+    credit: "Unsplash",
+  },
+
+  claimsHeroRoof: {
+    url: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=2400&q=85",
+    alt: "Roofing professional inspecting a residential roof",
+    credit: "Unsplash",
+  },
+
+  roofRestoration: {
+    url: "https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=2200&q=85",
+    alt: "Roofing crew repairing and restoring a home",
+    credit: "Unsplash",
+  },
+
+  familyBeachSunset: {
+    url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=2200&q=85",
+    alt: "Happy family spending time together outdoors",
+    credit: "Unsplash",
+  },
+
+  teamOffice: {
+    url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    alt: "Professional team collaborating around an office table",
+    credit: "Unsplash",
+  },
+
+  industrialDrone: {
+    url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2400&q=85",
+    alt: "Large industrial facility and commercial operations",
+    credit: "Unsplash",
+  },
+
+  businessOwnerBoutique: {
+    url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=2200&q=85",
+    alt: "Small-business owner working inside a modern storefront",
+    credit: "Unsplash",
+  },
+
+  warehouseBoxes: {
+    url: "https://images.unsplash.com/photo-1586528116493-da8b8f578c58?auto=format&fit=crop&w=2200&q=85",
+    alt: "Organized commercial warehouse with inventory and shipments",
+    credit: "Unsplash",
+  },
+
+  officeWindowRoom: {
+    url: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=2200&q=85",
+    alt: "Elegant office conference room with large windows",
+    credit: "Unsplash",
+  },
+
+  retailShopkeeper: {
+    url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2200&q=85",
+    alt: "Premium retail storefront with organized merchandise",
+    credit: "Unsplash",
+  },
+
+  livingRoomAlt: {
+    url: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2200&q=85",
+    alt: "Comfortable upscale living room in a modern home",
+    credit: "Unsplash",
+  },
+
+  laptopNotes: {
+    url: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2200&q=85",
+    alt: "Professional taking notes while planning at a desk",
+    credit: "Unsplash",
+  },
+
+  businessTeamMeeting: {
+    url: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85",
+    alt: "Business owners and advisors planning together in a meeting",
+    credit: "Unsplash",
+  },
+
+  restaurantInterior: {
+    url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2200&q=85",
+    alt: "Upscale restaurant dining room prepared for customers",
+    credit: "Unsplash",
+  },
+
+  retailStorefront: {
+    url: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=2200&q=85",
+    alt: "Modern retail store with clothing and merchandise displays",
+    credit: "Unsplash",
+  },
+} as const;
+
+export type HeroImage =
+  (typeof heroImages)[keyof typeof heroImages];
 
 // Shared coverage-line option lists used by both the hero toggle and the
 // expanded quote form, so the two stay in sync.
