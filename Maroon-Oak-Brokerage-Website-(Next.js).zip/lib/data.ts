@@ -254,7 +254,7 @@ export const heroImages = {
   },
 
  hvacTechnician: {
-  url: "/images/hvac.jpg",
+  url: "/hvac.jpg",
   alt: "Commercial HVAC technicians servicing rooftop HVAC equipment",
   credit: "Maroon Oak Brokerage",
 },
