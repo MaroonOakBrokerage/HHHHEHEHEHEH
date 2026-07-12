@@ -1010,97 +1010,102 @@ export const industries: {
   description: string;
   href: string;
   imageKey: keyof typeof heroImages;
+export const industries: {
+  label: string;
+  description: string;
+  href: string;
+  imageKey: keyof typeof heroImages;
 }[] = [
   {
     label: "General Contractors",
     description:
-      "Coverage for every phase of a job, from groundbreaking to final walkthrough.",
+      "Coverage for jobsite liability, tools, equipment, vehicles, employees, and completed operations.",
     href: "/business-insurance#general-liability",
     imageKey: "contractorSite",
   },
   {
     label: "Plumbers",
     description:
-      "Liability and tool coverage built for work inside someone else's property.",
+      "Liability, tools, equipment, vehicles, and completed-operations coverage for plumbing contractors.",
     href: "/business-insurance#general-liability",
-    imageKey: "modernKitchen",
+    imageKey: "plumberWorking",
   },
   {
     label: "Electricians",
     description:
-      "Protection against the higher-stakes risks of electrical work.",
+      "Protection for electrical work, tools, service vehicles, employees, and jobsite liability.",
     href: "/business-insurance#general-liability",
-    imageKey: "contractorPortrait",
+    imageKey: "electricianWorking",
   },
   {
     label: "HVAC",
     description:
-      "Coverage for installation, service calls, and the equipment you rely on.",
+      "Coverage for HVAC installation, repairs, service vehicles, tools, and specialized equipment.",
     href: "/business-insurance#inland-marine",
-    imageKey: "industrialDrone",
+    imageKey: "hvacSystem",
   },
   {
     label: "Roofers",
     description:
-      "Protection during construction and the risks that come with height.",
+      "Protection for roofing crews, equipment, jobsite liability, and the risks associated with working at height.",
     href: "/business-insurance#builders-risk",
     imageKey: "roofRestoration",
   },
   {
     label: "Landscapers",
     description:
-      "Equipment and liability coverage for crews and gear on the move.",
+      "Liability, equipment, trailer, vehicle, and property coverage for landscaping businesses and crews.",
     href: "/business-insurance#inland-marine",
     imageKey: "homeExterior",
   },
   {
     label: "Painters",
     description:
-      "Liability coverage built around interior and exterior project work.",
+      "Liability, equipment, vehicle, and completed-operations coverage for interior and exterior painting contractors.",
     href: "/business-insurance#general-liability",
-    imageKey: "contractorSite",
+    imageKey: "contractorPortrait",
   },
   {
     label: "Commercial Real Estate",
     description:
-      "Property and liability coverage for owned or managed buildings.",
+      "Property and liability protection for commercial buildings, landlords, investors, and property managers.",
     href: "/business-insurance#commercial-property",
-    imageKey: "officeMeeting",
+    imageKey: "dataCenterAerial",
   },
   {
     label: "Restaurants",
     description:
-      "A bundled policy built for kitchens, dining rooms, and customer traffic.",
+      "Coverage for kitchens, dining areas, employees, equipment, food spoilage, and customer-facing risks.",
     href: "/business-insurance#bop",
-    imageKey: "retailShopkeeper",
+    imageKey: "restaurantInterior",
   },
   {
     label: "Retail",
     description:
-      "Coverage for inventory, storefronts, and customer-facing risk.",
+      "Protection for storefronts, inventory, equipment, employees, and customer-facing liability.",
     href: "/business-insurance#bop",
-    imageKey: "businessOwnerBoutique",
+    imageKey: "retailStorefront",
   },
   {
     label: "Professional Services",
     description:
-      "Errors and omissions coverage for the advice and services you provide.",
+      "Professional liability, cyber, property, and business coverage for firms that provide advice or specialized services.",
     href: "/business-insurance#professional-liability",
     imageKey: "advisorConversation",
   },
   {
     label: "Manufacturing",
     description:
-      "Property and equipment coverage for production and warehousing.",
+      "Property, equipment, product liability, workers’ compensation, and operational coverage for manufacturers.",
     href: "/business-insurance#commercial-property",
     imageKey: "warehouse",
   },
   {
     label: "Trucking / Fleet",
     description:
-      "Commercial auto coverage built for businesses on the road.",
+      "Commercial auto, liability, cargo, physical damage, and fleet protection for businesses on the road.",
     href: "/business-insurance#commercial-auto",
-    imageKey: "warehouseBoxes",
+    imageKey: "truckingFleet",
   },
 ];
 // Guided explorer tiles for the homepage "What Are You Looking to Protect?" section.
