@@ -1,6 +1,3 @@
-
-
-
 // Central content data for Maroon Oak Brokerage.
 // Keeping copy here (rather than scattered in JSX) makes it easy to update
 // site content without touching component/page markup.
@@ -999,29 +996,35 @@ export const lifeEvents: {
 }[] = [
   { label: "Buying a Home", description: "Protecting a new home and everything that comes with owning it.", href: "/personal-insurance#home", imageKey: "homeExterior" },
   { label: "New Vehicle", description: "Making sure a new car, truck, or SUV is covered correctly from day one.", href: "/personal-insurance#auto", imageKey: "autoDrive" },
-  { label: "Getting Married", description: "Combining households, policies, and long-term plans under one roof.", href: "/personal-insurance#umbrella", imageKey: "familyBeachSunset" },
+  { label: "Getting Married", description: "Combining households, policies, and long-term plans under one roof.", href: "/personal-insurance#umbrella", imageKey: "advisorConversation" },
   { label: "Growing Family", description: "Life insurance and coverage that grows as your household changes.", href: "/personal-insurance#life", imageKey: "lifeFamily" },
   { label: "First Apartment", description: "Affordable protection for your belongings and liability as a renter.", href: "/personal-insurance#renters", imageKey: "rentersApartment" },
-  { label: "College Student", description: "Coverage for belongings and vehicles while living away from home.", href: "/personal-insurance#valuable-items", imageKey: "planningSession" },
-  { label: "Boat or RV", description: "Protection built for time on the water or the road.", href: "/personal-insurance#boat", imageKey: "boatLake" },
-  { label: "Building Long-Term Protection", description: "Umbrella and life coverage that protects what you have built.", href: "/personal-insurance#umbrella", imageKey: "advisorConversation" },
+  { label: "College Student", description: "Coverage for belongings and vehicles while living away from home.", href: "/personal-insurance#renters", imageKey: "planningSession" },
+  { label: "Boat or RV", description: "Protection built for time on the water or the open road.", href: "/personal-insurance#rv", imageKey: "rvTravel" },
+  { label: "Building Long-Term Protection", description: "Umbrella and life coverage that protects what you have built.", href: "/personal-insurance#umbrella", imageKey: "jewelryWatch" },
 ];
 
 // Industry cards on the Business Insurance page ("Find Your Industry").
-export const industries: { label: string; description: string; href: string; imageKey?: keyof typeof heroImages }[] = [
-  { label: "General Contractors", description: "Coverage for every phase of a job, from groundbreak to final walkthrough.", href: "/business-insurance#general-liability", imageKey: "contractorSite" },
-  { label: "Plumbers", description: "Liability and tool coverage built for work inside someone else's property.", href: "/business-insurance#general-liability" },
-  { label: "Electricians", description: "Protection against the higher-stakes risks of electrical work.", href: "/business-insurance#general-liability", imageKey: "contractorPortrait" },
-  { label: "HVAC", description: "Coverage for installation, service calls, and the equipment you rely on.", href: "/business-insurance#inland-marine" },
-  { label: "Roofers", description: "Protection during construction and the risks that come with height.", href: "/business-insurance#builders-risk" },
-  { label: "Landscapers", description: "Equipment and liability coverage for crews and gear on the move.", href: "/business-insurance#inland-marine" },
-  { label: "Painters", description: "Liability coverage built around interior and exterior project work.", href: "/business-insurance#general-liability" },
-  { label: "Commercial Real Estate", description: "Property and liability coverage for owned or managed buildings.", href: "/business-insurance#commercial-property", imageKey: "officeMeeting" },
-  { label: "Restaurants", description: "A bundled policy built for kitchens, dining rooms, and foot traffic.", href: "/business-insurance#bop" },
-  { label: "Retail", description: "Coverage for inventory, storefronts, and customer-facing risk.", href: "/business-insurance#bop" },
-  { label: "Professional Services", description: "Errors & omissions coverage for the advice and services you provide.", href: "/business-insurance#professional-liability" },
-  { label: "Manufacturing", description: "Property and equipment coverage for production and warehousing.", href: "/business-insurance#commercial-property", imageKey: "warehouse" },
-  { label: "Trucking / Fleet", description: "Commercial auto coverage built for businesses on the road.", href: "/business-insurance#commercial-auto" },
+// Every card requires an image key, so no card falls back to a solid maroon block.
+export const industries: {
+  label: string;
+  description: string;
+  href: string;
+  imageKey: keyof typeof heroImages;
+}[] = [
+  { label: "General Contractors", description: "Coverage for jobsite liability, tools, equipment, vehicles, employees, and completed operations.", href: "/business-insurance#general-liability", imageKey: "contractorSite" },
+  { label: "Plumbers", description: "Liability, tools, equipment, vehicles, and completed-operations coverage for plumbing contractors.", href: "/business-insurance#general-liability", imageKey: "plumberWorking" },
+  { label: "Electricians", description: "Protection for electrical work, tools, service vehicles, employees, and jobsite liability.", href: "/business-insurance#general-liability", imageKey: "electricianWorking" },
+  { label: "HVAC", description: "Coverage for HVAC installation, repairs, service vehicles, tools, and specialized equipment.", href: "/business-insurance#inland-marine", imageKey: "hvacSystem" },
+  { label: "Roofers", description: "Protection for roofing crews, equipment, jobsite liability, and working-at-height risks.", href: "/business-insurance#builders-risk", imageKey: "roofRestoration" },
+  { label: "Landscapers", description: "Liability, equipment, trailers, vehicles, and property coverage for landscaping businesses.", href: "/business-insurance#inland-marine", imageKey: "landscaperWorking" },
+  { label: "Painters", description: "Liability, equipment, vehicle, and completed-operations coverage for painting contractors.", href: "/business-insurance#general-liability", imageKey: "painterWorking" },
+  { label: "Commercial Real Estate", description: "Property and liability protection for commercial buildings, landlords, and property managers.", href: "/business-insurance#commercial-property", imageKey: "dataCenterAerial" },
+  { label: "Restaurants", description: "Coverage for kitchens, dining areas, employees, equipment, spoilage, and customer-facing risks.", href: "/business-insurance#bop", imageKey: "restaurantInterior" },
+  { label: "Retail", description: "Protection for storefronts, inventory, equipment, employees, and customer-facing liability.", href: "/business-insurance#bop", imageKey: "retailStorefront" },
+  { label: "Professional Services", description: "Professional liability, cyber, property, and business coverage for firms providing advice or services.", href: "/business-insurance#professional-liability", imageKey: "officeMeeting" },
+  { label: "Manufacturing", description: "Property, equipment, product liability, workers compensation, and operational coverage.", href: "/business-insurance#commercial-property", imageKey: "warehouse" },
+  { label: "Trucking / Fleet", description: "Commercial auto, liability, cargo, physical damage, and fleet protection for businesses on the road.", href: "/business-insurance#commercial-auto", imageKey: "truckingFleet" },
 ];
 
 // Guided explorer tiles for the homepage "What Are You Looking to Protect?" section.
