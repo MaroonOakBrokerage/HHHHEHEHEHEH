@@ -276,7 +276,7 @@ painterWorking: {
 },
 
   truckingFleet: {
-    url: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2400&q=85",
+    url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2200&q=85",
     alt: "Commercial semi-truck transporting freight on a highway",
     credit: "Unsplash",
   },
@@ -324,7 +324,7 @@ painterWorking: {
   },
 
   manufacturingPlant: {
-  url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2200&q=85",
+  url: "",
   alt: "Modern manufacturing facility with industrial machinery",
   credit: "Unsplash",
   },
