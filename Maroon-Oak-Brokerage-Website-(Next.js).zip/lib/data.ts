@@ -324,7 +324,7 @@ painterWorking: {
   },
 
   manufacturingPlant: {
-  url: "",
+  url: "/manufacturing.jpg",
   alt: "Modern manufacturing facility with industrial machinery",
   credit: "Unsplash",
   },
