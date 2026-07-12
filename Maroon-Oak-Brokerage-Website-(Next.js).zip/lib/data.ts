@@ -254,7 +254,7 @@ export const heroImages = {
   },
 
   hvacTechnician: {
-  url: "...",
+  url: "https://t4.ftcdn.net/jpg/04/43/44/37/360_F_443443715_mm6GzJapF4ZrBMUz4CX3CK01KWPUHLZa.jpg",
   alt: "HVAC technician servicing heating and cooling equipment",
   credit: "Unsplash",
 },
