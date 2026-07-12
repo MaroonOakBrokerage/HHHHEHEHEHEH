@@ -63,19 +63,19 @@ export const trustPoints = [
 export const heroImages = {
   cityDusk: {
     url: "https://images.unsplash.com/photo-1666969565832-b55bf42a900d?auto=format&fit=crop&w=2400&q=85",
-    alt: "Downtown Austin skyline glowing at sunset",
+    alt: "Downtown skyline glowing at dusk",
     credit: "Unsplash",
   },
 
   bridge: {
-    url: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?auto=format&fit=crop&w=2400&q=85",
-    alt: "Austin skyline and river viewed near a city bridge",
+    url: "https://images.unsplash.com/photo-1641576369369-870158b0d11b?auto=format&fit=crop&w=2400&q=85",
+    alt: "Large bridge spanning a river toward the city",
     credit: "Unsplash",
   },
 
   skylineDay: {
-    url: "https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=2400&q=85",
-    alt: "Modern Texas city skyline during the day",
+    url: "https://images.unsplash.com/photo-1611005813863-6c1bc3d3908b?auto=format&fit=crop&w=2400&q=85",
+    alt: "Modern city skyline beneath a blue sky",
     credit: "Unsplash",
   },
 
@@ -87,7 +87,7 @@ export const heroImages = {
 
   homeExterior: {
     url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=85",
-    alt: "Beautiful modern family home exterior",
+    alt: "Modern family home exterior",
     credit: "Unsplash",
   },
 
@@ -98,14 +98,14 @@ export const heroImages = {
   },
 
   contractorPortrait: {
-    url: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=85",
-    alt: "Construction professional wearing safety equipment on a jobsite",
+    url: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=2000&q=85",
+    alt: "Construction professional wearing safety equipment",
     credit: "Unsplash",
   },
 
   officeMeeting: {
     url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
-    alt: "Business professionals collaborating in a modern office",
+    alt: "Business professionals collaborating in an office",
     credit: "Unsplash",
   },
 
@@ -117,13 +117,13 @@ export const heroImages = {
 
   warehouse: {
     url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2200&q=85",
-    alt: "Large commercial warehouse and logistics facility",
+    alt: "Commercial warehouse and logistics operation",
     credit: "Unsplash",
   },
 
   smallTownDusk: {
     url: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?auto=format&fit=crop&w=2400&q=85",
-    alt: "Welcoming Texas downtown street at dusk",
+    alt: "Welcoming downtown street at dusk",
     credit: "Unsplash",
   },
 
@@ -135,7 +135,7 @@ export const heroImages = {
 
   planningSession: {
     url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2200&q=85",
-    alt: "Young professionals reviewing plans and documents together",
+    alt: "Professionals reviewing plans and documents together",
     credit: "Unsplash",
   },
 
@@ -147,7 +147,7 @@ export const heroImages = {
 
   modernKitchen: {
     url: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=2200&q=85",
-    alt: "Bright premium kitchen inside a family home",
+    alt: "Bright modern kitchen inside a family home",
     credit: "Unsplash",
   },
 
@@ -165,37 +165,37 @@ export const heroImages = {
 
   roofRestoration: {
     url: "https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=2200&q=85",
-    alt: "Roofing crew repairing and restoring a home",
+    alt: "Roofing crew repairing a home",
     credit: "Unsplash",
   },
 
   familyBeachSunset: {
     url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=2200&q=85",
-    alt: "Happy family spending time together outdoors",
+    alt: "Family spending time together outdoors",
     credit: "Unsplash",
   },
 
   teamOffice: {
     url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
-    alt: "Professional team collaborating around an office table",
+    alt: "Professional team collaborating in a modern office",
     credit: "Unsplash",
   },
 
   industrialDrone: {
     url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2400&q=85",
-    alt: "Large industrial facility and commercial operations",
+    alt: "Large industrial facility and commercial operation",
     credit: "Unsplash",
   },
 
   businessOwnerBoutique: {
     url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=2200&q=85",
-    alt: "Small-business owner working inside a modern storefront",
+    alt: "Small-business owner working inside a storefront",
     credit: "Unsplash",
   },
 
   warehouseBoxes: {
     url: "https://images.unsplash.com/photo-1586528116493-da8b8f578c58?auto=format&fit=crop&w=2200&q=85",
-    alt: "Organized commercial warehouse with inventory and shipments",
+    alt: "Commercial warehouse with inventory and shipments",
     credit: "Unsplash",
   },
 
@@ -207,13 +207,13 @@ export const heroImages = {
 
   retailShopkeeper: {
     url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2200&q=85",
-    alt: "Premium retail storefront with organized merchandise",
+    alt: "Professional retail storefront with merchandise",
     credit: "Unsplash",
   },
 
   livingRoomAlt: {
     url: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2200&q=85",
-    alt: "Comfortable upscale living room in a modern home",
+    alt: "Comfortable upscale living room",
     credit: "Unsplash",
   },
 
@@ -225,7 +225,7 @@ export const heroImages = {
 
   businessTeamMeeting: {
     url: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85",
-    alt: "Business owners and advisors planning together in a meeting",
+    alt: "Business owners and advisors planning together",
     credit: "Unsplash",
   },
 
@@ -237,14 +237,38 @@ export const heroImages = {
 
   retailStorefront: {
     url: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=2200&q=85",
-    alt: "Modern retail store with clothing and merchandise displays",
+    alt: "Modern retail store with organized merchandise displays",
+    credit: "Unsplash",
+  },
+
+  plumberWorking: {
+    url: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=2200&q=85",
+    alt: "Skilled service professional completing repair work",
+    credit: "Unsplash",
+  },
+
+  electricianWorking: {
+    url: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=2200&q=85",
+    alt: "Electrician inspecting and servicing electrical equipment",
+    credit: "Unsplash",
+  },
+
+  hvacSystem: {
+    url: "https://images.unsplash.com/photo-1631545806609-5c8f8903f2cf?auto=format&fit=crop&w=2200&q=85",
+    alt: "HVAC equipment used for commercial heating and cooling",
+    credit: "Unsplash",
+  },
+
+  truckingFleet: {
+    url: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2400&q=85",
+    alt: "Commercial semi-truck transporting freight on the highway",
     credit: "Unsplash",
   },
 } as const;
 
 export type HeroImage =
   (typeof heroImages)[keyof typeof heroImages];
-
+} as const;
 // Shared coverage-line option lists used by both the hero toggle and the
 // expanded quote form, so the two stay in sync.
 export const personalCoverageOptions = [
