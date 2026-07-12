@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-stone text-charcoal antialiased; }
+  h1,h2,h3,h4 { @apply font-serif; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  ::selection { background:#c8a04a; color:#3a0a18; }
+}
+@layer utilities {
+  .premium-panel { background:linear-gradient(145deg,rgba(23,20,18,.96),rgba(7,15,22,.96)); border:1px solid rgba(200,160,74,.45); box-shadow:0 32px 80px rgba(0,0,0,.38); }
+}
