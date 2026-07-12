@@ -312,7 +312,7 @@ painterWorking: {
   },
 
   rooferWorking: {
-    url: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=2200&q=85",
+    url: "/roof.jpg",
     alt: "Professional roofer working safely on a residential roof",
     credit: "Unsplash",
   },
