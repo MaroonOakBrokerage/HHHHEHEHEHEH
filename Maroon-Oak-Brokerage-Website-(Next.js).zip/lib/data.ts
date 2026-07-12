@@ -1,3 +1,6 @@
+
+
+
 // Central content data for Maroon Oak Brokerage.
 // Keeping copy here (rather than scattered in JSX) makes it easy to update
 // site content without touching component/page markup.
@@ -62,212 +65,229 @@ export const trustPoints = [
 // needs to change since every hero pulls from this single source of truth.
 export const heroImages = {
   cityDusk: {
-    url: "https://images.unsplash.com/photo-1666969565832-b55bf42a900d?auto=format&fit=crop&w=2400&q=85",
-    alt: "Downtown skyline glowing at dusk",
+    url: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?auto=format&fit=crop&w=2400&q=85",
+    alt: "Austin skyline at sunset above the Colorado River",
     credit: "Unsplash",
   },
-
   bridge: {
-    url: "https://images.unsplash.com/photo-1641576369369-870158b0d11b?auto=format&fit=crop&w=2400&q=85",
-    alt: "Large bridge spanning a river toward the city",
+    url: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?auto=format&fit=crop&w=2400&q=85",
+    alt: "Austin skyline and bridge over the Colorado River",
     credit: "Unsplash",
   },
-
   skylineDay: {
-    url: "https://images.unsplash.com/photo-1611005813863-6c1bc3d3908b?auto=format&fit=crop&w=2400&q=85",
-    alt: "Modern city skyline beneath a blue sky",
+    url: "https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=2400&q=85",
+    alt: "Modern downtown skyline in daylight",
     credit: "Unsplash",
   },
-
   office: {
     url: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2200&q=85",
-    alt: "Premium modern office with natural light",
+    alt: "Modern professional office with natural light",
     credit: "Unsplash",
   },
-
   homeExterior: {
     url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=85",
-    alt: "Modern family home exterior",
+    alt: "Upscale modern family home exterior",
     credit: "Unsplash",
   },
-
   contractorSite: {
     url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2200&q=85",
-    alt: "Construction professionals working on an active jobsite",
+    alt: "Construction workers on an active commercial jobsite",
     credit: "Unsplash",
   },
-
   contractorPortrait: {
     url: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=2000&q=85",
     alt: "Construction professional wearing safety equipment",
     credit: "Unsplash",
   },
-
   officeMeeting: {
     url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
-    alt: "Business professionals collaborating in an office",
+    alt: "Business professionals collaborating in a modern office",
     credit: "Unsplash",
   },
-
   livingRoom: {
     url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=85",
-    alt: "Warm upscale family living room",
+    alt: "Warm, upscale family living room",
     credit: "Unsplash",
   },
-
   warehouse: {
     url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2200&q=85",
     alt: "Commercial warehouse and logistics operation",
     credit: "Unsplash",
   },
-
   smallTownDusk: {
     url: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?auto=format&fit=crop&w=2400&q=85",
-    alt: "Welcoming downtown street at dusk",
+    alt: "Welcoming downtown business district at dusk",
     credit: "Unsplash",
   },
-
   advisorConversation: {
     url: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=2200&q=85",
-    alt: "Trusted advisor meeting with a business client",
+    alt: "Insurance advisor meeting with a client",
     credit: "Unsplash",
   },
-
   planningSession: {
     url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2200&q=85",
-    alt: "Professionals reviewing plans and documents together",
+    alt: "Young professionals reviewing plans together",
     credit: "Unsplash",
   },
-
   dataCenterAerial: {
     url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=85",
-    alt: "Large modern commercial office building",
+    alt: "Modern commercial office building",
     credit: "Unsplash",
   },
-
   modernKitchen: {
     url: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=2200&q=85",
     alt: "Bright modern kitchen inside a family home",
     credit: "Unsplash",
   },
-
   neighborhoodAerial: {
     url: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=2200&q=85",
-    alt: "Residential neighborhood and family homes",
+    alt: "Residential neighborhood with family homes",
     credit: "Unsplash",
   },
-
   claimsHeroRoof: {
     url: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=2400&q=85",
     alt: "Roofing professional inspecting a residential roof",
     credit: "Unsplash",
   },
-
   roofRestoration: {
     url: "https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=2200&q=85",
     alt: "Roofing crew repairing a home",
     credit: "Unsplash",
   },
-
   familyBeachSunset: {
     url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=2200&q=85",
     alt: "Family spending time together outdoors",
     credit: "Unsplash",
   },
-
   teamOffice: {
     url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
-    alt: "Professional team collaborating in a modern office",
+    alt: "Professional team collaborating around a table",
     credit: "Unsplash",
   },
-
   industrialDrone: {
     url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=2400&q=85",
-    alt: "Large industrial facility and commercial operation",
+    alt: "Industrial production facility and machinery",
     credit: "Unsplash",
   },
-
   businessOwnerBoutique: {
     url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=2200&q=85",
     alt: "Small-business owner working inside a storefront",
     credit: "Unsplash",
   },
-
   warehouseBoxes: {
-    url: "https://images.unsplash.com/photo-1586528116493-da8b8f578c58?auto=format&fit=crop&w=2200&q=85",
-    alt: "Commercial warehouse with inventory and shipments",
+    url: "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=2200&q=85",
+    alt: "Warehouse shelves stocked with commercial inventory",
     credit: "Unsplash",
   },
-
   officeWindowRoom: {
     url: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=2200&q=85",
     alt: "Elegant office conference room with large windows",
     credit: "Unsplash",
   },
-
   retailShopkeeper: {
-    url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2200&q=85",
-    alt: "Professional retail storefront with merchandise",
+    url: "https://images.unsplash.com/photo-1556742111-a301076d9d18?auto=format&fit=crop&w=2200&q=85",
+    alt: "Retail business owner helping a customer at checkout",
     credit: "Unsplash",
   },
-
   livingRoomAlt: {
     url: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2200&q=85",
     alt: "Comfortable upscale living room",
     credit: "Unsplash",
   },
-
   laptopNotes: {
     url: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2200&q=85",
     alt: "Professional taking notes while planning at a desk",
     credit: "Unsplash",
   },
-
   businessTeamMeeting: {
     url: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85",
     alt: "Business owners and advisors planning together",
     credit: "Unsplash",
   },
-
   restaurantInterior: {
     url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2200&q=85",
     alt: "Upscale restaurant dining room prepared for customers",
     credit: "Unsplash",
   },
-
   retailStorefront: {
-    url: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=2200&q=85",
+    url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2200&q=85",
     alt: "Modern retail store with organized merchandise displays",
     credit: "Unsplash",
   },
-
   plumberWorking: {
-    url: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=2200&q=85",
-    alt: "Skilled service professional completing repair work",
+    url: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=2200&q=85",
+    alt: "Licensed plumber repairing residential piping",
     credit: "Unsplash",
   },
-
   electricianWorking: {
     url: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=2200&q=85",
-    alt: "Electrician inspecting and servicing electrical equipment",
+    alt: "Electrician inspecting electrical equipment",
     credit: "Unsplash",
   },
-
   hvacSystem: {
     url: "https://images.unsplash.com/photo-1631545806609-5c8f8903f2cf?auto=format&fit=crop&w=2200&q=85",
-    alt: "HVAC equipment used for commercial heating and cooling",
+    alt: "HVAC technician servicing heating and cooling equipment",
     credit: "Unsplash",
   },
-
+  landscaperWorking: {
+    url: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=2200&q=85",
+    alt: "Professional landscaper maintaining a residential property",
+    credit: "Unsplash",
+  },
+  painterWorking: {
+    url: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=2200&q=85",
+    alt: "Professional painter applying paint to an interior wall",
+    credit: "Unsplash",
+  },
   truckingFleet: {
     url: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2400&q=85",
     alt: "Commercial semi-truck transporting freight on the highway",
     credit: "Unsplash",
   },
+  motorcycleRoad: {
+    url: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=2200&q=85",
+    alt: "Motorcycle rider traveling on an open road",
+    credit: "Unsplash",
+  },
+  autoDrive: {
+    url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=85",
+    alt: "Modern vehicle driving on a scenic road",
+    credit: "Unsplash",
+  },
+  condoInterior: {
+    url: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=2200&q=85",
+    alt: "Modern condominium interior",
+    credit: "Unsplash",
+  },
+  rentersApartment: {
+    url: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2200&q=85",
+    alt: "Comfortable apartment interior for renters",
+    credit: "Unsplash",
+  },
+  rvTravel: {
+    url: "https://images.unsplash.com/photo-1549517045-bc93de075e53?auto=format&fit=crop&w=2200&q=85",
+    alt: "Recreational vehicle parked in a scenic travel destination",
+    credit: "Unsplash",
+  },
+  boatLake: {
+    url: "https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=2200&q=85",
+    alt: "Recreational boat cruising on a lake",
+    credit: "Unsplash",
+  },
+  lifeFamily: {
+    url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=2200&q=85",
+    alt: "Family together at home",
+    credit: "Unsplash",
+  },
+  jewelryWatch: {
+    url: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=2200&q=85",
+    alt: "Luxury watch and valuable personal item",
+    credit: "Unsplash",
+  },
 } as const;
 
-export type HeroImage =
-  (typeof heroImages)[keyof typeof heroImages];
+export type HeroImage = (typeof heroImages)[keyof typeof heroImages];
+
 // Shared coverage-line option lists used by both the hero toggle and the
 // expanded quote form, so the two stay in sync.
 export const personalCoverageOptions = [
@@ -977,155 +997,33 @@ export const lifeEvents: {
   href: string;
   imageKey: keyof typeof heroImages;
 }[] = [
-  {
-    label: "Buying a Home",
-    description: "Protecting a new home and everything that comes with owning it.",
-    href: "/personal-insurance#home",
-    imageKey: "neighborhoodAerial",
-  },
-  {
-    label: "New Vehicle",
-    description: "Making sure a new car, truck, or SUV is covered the right way from day one.",
-    href: "/personal-insurance#auto",
-    imageKey: "homeExterior",
-  },
-  {
-    label: "Getting Married",
-    description: "Combining households, policies, and long-term plans under one roof.",
-    href: "/personal-insurance#umbrella",
-    imageKey: "familyBeachSunset",
-  },
-  {
-    label: "Growing Family",
-    description: "Life insurance and coverage that scales as your household grows.",
-    href: "/personal-insurance#life",
-    imageKey: "livingRoom",
-  },
-  {
-    label: "First Apartment",
-    description: "Affordable protection for your belongings and liability as a renter.",
-    href: "/personal-insurance#renters",
-    imageKey: "modernKitchen",
-  },
-  {
-    label: "College Student",
-    description: "Coverage for valuables and vehicles while living away from home.",
-    href: "/personal-insurance#valuable-items",
-    imageKey: "planningSession",
-  },
-  {
-    label: "Boat or RV",
-    description: "Protection built for time on the water or the road.",
-    href: "/personal-insurance#boat",
-    imageKey: "bridge",
-  },
-  {
-    label: "Building Long-Term Protection",
-    description: "Umbrella and life coverage that protects everything you have built.",
-    href: "/personal-insurance#umbrella",
-    imageKey: "advisorConversation",
-  },
+  { label: "Buying a Home", description: "Protecting a new home and everything that comes with owning it.", href: "/personal-insurance#home", imageKey: "homeExterior" },
+  { label: "New Vehicle", description: "Making sure a new car, truck, or SUV is covered correctly from day one.", href: "/personal-insurance#auto", imageKey: "autoDrive" },
+  { label: "Getting Married", description: "Combining households, policies, and long-term plans under one roof.", href: "/personal-insurance#umbrella", imageKey: "familyBeachSunset" },
+  { label: "Growing Family", description: "Life insurance and coverage that grows as your household changes.", href: "/personal-insurance#life", imageKey: "lifeFamily" },
+  { label: "First Apartment", description: "Affordable protection for your belongings and liability as a renter.", href: "/personal-insurance#renters", imageKey: "rentersApartment" },
+  { label: "College Student", description: "Coverage for belongings and vehicles while living away from home.", href: "/personal-insurance#valuable-items", imageKey: "planningSession" },
+  { label: "Boat or RV", description: "Protection built for time on the water or the road.", href: "/personal-insurance#boat", imageKey: "boatLake" },
+  { label: "Building Long-Term Protection", description: "Umbrella and life coverage that protects what you have built.", href: "/personal-insurance#umbrella", imageKey: "advisorConversation" },
 ];
 
-// Industry cards on the Business Insurance page.
-export const industries: {
-  label: string;
-  description: string;
-  href: string;
-  imageKey: keyof typeof heroImages;
-}[] = [
-  {
-    label: "General Contractors",
-    description:
-      "Coverage for jobsite liability, tools, equipment, vehicles, employees, and completed operations.",
-    href: "/business-insurance#general-liability",
-    imageKey: "contractorSite",
-  },
-  {
-    label: "Plumbers",
-    description:
-      "Liability, tools, equipment, vehicles, and completed-operations coverage for plumbing contractors.",
-    href: "/business-insurance#general-liability",
-    imageKey: "plumberWorking",
-  },
-  {
-    label: "Electricians",
-    description:
-      "Protection for electrical work, tools, service vehicles, employees, and jobsite liability.",
-    href: "/business-insurance#general-liability",
-    imageKey: "electricianWorking",
-  },
-  {
-    label: "HVAC",
-    description:
-      "Coverage for HVAC installation, repairs, service vehicles, tools, and specialized equipment.",
-    href: "/business-insurance#inland-marine",
-    imageKey: "hvacSystem",
-  },
-  {
-    label: "Roofers",
-    description:
-      "Protection for roofing crews, equipment, jobsite liability, and the risks associated with working at height.",
-    href: "/business-insurance#builders-risk",
-    imageKey: "roofRestoration",
-  },
-  {
-    label: "Landscapers",
-    description:
-      "Liability, equipment, trailer, vehicle, and property coverage for landscaping businesses and crews.",
-    href: "/business-insurance#inland-marine",
-    imageKey: "homeExterior",
-  },
-  {
-    label: "Painters",
-    description:
-      "Liability, equipment, vehicle, and completed-operations coverage for interior and exterior painting contractors.",
-    href: "/business-insurance#general-liability",
-    imageKey: "contractorPortrait",
-  },
-  {
-    label: "Commercial Real Estate",
-    description:
-      "Property and liability protection for commercial buildings, landlords, investors, and property managers.",
-    href: "/business-insurance#commercial-property",
-    imageKey: "dataCenterAerial",
-  },
-  {
-    label: "Restaurants",
-    description:
-      "Coverage for kitchens, dining areas, employees, equipment, food spoilage, and customer-facing risks.",
-    href: "/business-insurance#bop",
-    imageKey: "restaurantInterior",
-  },
-  {
-    label: "Retail",
-    description:
-      "Protection for storefronts, inventory, equipment, employees, and customer-facing liability.",
-    href: "/business-insurance#bop",
-    imageKey: "retailStorefront",
-  },
-  {
-    label: "Professional Services",
-    description:
-      "Professional liability, cyber, property, and business coverage for firms that provide advice or specialized services.",
-    href: "/business-insurance#professional-liability",
-    imageKey: "advisorConversation",
-  },
-  {
-    label: "Manufacturing",
-    description:
-      "Property, equipment, product liability, workers’ compensation, and operational coverage for manufacturers.",
-    href: "/business-insurance#commercial-property",
-    imageKey: "warehouse",
-  },
-  {
-    label: "Trucking / Fleet",
-    description:
-      "Commercial auto, liability, cargo, physical damage, and fleet protection for businesses on the road.",
-    href: "/business-insurance#commercial-auto",
-    imageKey: "truckingFleet",
-  },
+// Industry cards on the Business Insurance page ("Find Your Industry").
+export const industries: { label: string; description: string; href: string; imageKey?: keyof typeof heroImages }[] = [
+  { label: "General Contractors", description: "Coverage for every phase of a job, from groundbreak to final walkthrough.", href: "/business-insurance#general-liability", imageKey: "contractorSite" },
+  { label: "Plumbers", description: "Liability and tool coverage built for work inside someone else's property.", href: "/business-insurance#general-liability" },
+  { label: "Electricians", description: "Protection against the higher-stakes risks of electrical work.", href: "/business-insurance#general-liability", imageKey: "contractorPortrait" },
+  { label: "HVAC", description: "Coverage for installation, service calls, and the equipment you rely on.", href: "/business-insurance#inland-marine" },
+  { label: "Roofers", description: "Protection during construction and the risks that come with height.", href: "/business-insurance#builders-risk" },
+  { label: "Landscapers", description: "Equipment and liability coverage for crews and gear on the move.", href: "/business-insurance#inland-marine" },
+  { label: "Painters", description: "Liability coverage built around interior and exterior project work.", href: "/business-insurance#general-liability" },
+  { label: "Commercial Real Estate", description: "Property and liability coverage for owned or managed buildings.", href: "/business-insurance#commercial-property", imageKey: "officeMeeting" },
+  { label: "Restaurants", description: "A bundled policy built for kitchens, dining rooms, and foot traffic.", href: "/business-insurance#bop" },
+  { label: "Retail", description: "Coverage for inventory, storefronts, and customer-facing risk.", href: "/business-insurance#bop" },
+  { label: "Professional Services", description: "Errors & omissions coverage for the advice and services you provide.", href: "/business-insurance#professional-liability" },
+  { label: "Manufacturing", description: "Property and equipment coverage for production and warehousing.", href: "/business-insurance#commercial-property", imageKey: "warehouse" },
+  { label: "Trucking / Fleet", description: "Commercial auto coverage built for businesses on the road.", href: "/business-insurance#commercial-auto" },
 ];
+
 // Guided explorer tiles for the homepage "What Are You Looking to Protect?" section.
 export const explorerTiles = [
   { label: "Home", description: "Homeowners, condo, and renters coverage for where you live.", href: "/personal-insurance#home" },
