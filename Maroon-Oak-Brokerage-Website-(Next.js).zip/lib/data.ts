@@ -253,12 +253,11 @@ export const heroImages = {
     credit: "Unsplash",
   },
 
-  hvacTechnician: {
-  url: "https://t4.ftcdn.net/jpg/04/43/44/37/360_F_443443715_mm6GzJapF4ZrBMUz4CX3CK01KWPUHLZa.jpg",
-  alt: "HVAC technician servicing heating and cooling equipment",
-  credit: "Unsplash",
+ hvacTechnician: {
+  url: "/images/hvac.jpg",
+  alt: "Commercial HVAC technicians servicing rooftop HVAC equipment",
+  credit: "Maroon Oak Brokerage",
 },
-
   hvacSystem: {
     url: "https://images.unsplash.com/photo-1631545806609-5c8f8903f2cf?auto=format&fit=crop&w=2200&q=85",
     alt: "HVAC technician servicing heating and cooling equipment",
