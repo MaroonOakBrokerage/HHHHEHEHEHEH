@@ -1,47 +1,100 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { navItems, siteConfig } from "@/lib/data";
-import { PhoneIcon } from "./Icons";
-import MobileMenu from "./MobileMenu";
 
 export default function Header() {
-  const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
-    <header className={`sticky top-0 z-[200] border-b border-white/10 bg-[#080f17]/95 text-white backdrop-blur-xl transition-all ${scrolled ? "shadow-[0_12px_40px_rgba(0,0,0,.28)]" : ""}`}>
-      <div className="hidden h-7 items-center justify-between border-b border-gold/20 bg-maroon-deep px-8 text-[10px] font-semibold uppercase tracking-[.22em] text-stone/90 md:flex">
-        <span>Aggie-Founded • Texas-Rooted • Client-Focused</span>
-        <span>Independent Insurance Brokerage</span>
-      </div>
-      <div className="mx-auto flex h-[82px] max-w-[1440px] items-center justify-between gap-7 px-5 lg:px-10">
-        <Link href="/" className="flex flex-shrink-0 items-center" aria-label="Maroon Oak Brokerage home">
-          <Image src="/logo-horizontal.png" alt="Maroon Oak Brokerage" width={360} height={81} className="h-[62px] w-auto brightness-0 invert" priority />
-        </Link>
-        <nav className="hidden xl:block">
-          <ul className="flex items-center gap-8">
-            {navItems.map((item) => {
-              const active = pathname === item.href;
-              return <li key={item.href}><Link href={item.href} className={`relative py-3 text-[11px] font-semibold uppercase tracking-[.1em] transition-colors after:absolute after:bottom-1 after:left-0 after:h-px after:bg-gold after:transition-all ${active ? "text-gold after:w-full" : "text-stone/85 after:w-0 hover:text-gold hover:after:w-full"}`}>{item.label}</Link></li>;
-            })}
-          </ul>
-        </nav>
-        <div className="hidden items-center gap-5 lg:flex">
-          <a href={`tel:${siteConfig.phoneTel}`} className="group flex items-center gap-2 text-[13px] font-semibold text-stone hover:text-gold"><PhoneIcon className="h-5 w-5 stroke-gold" />{siteConfig.phoneDisplay}</a>
-          <Link href="/contact#quote" className="rounded-lg border border-gold/70 bg-maroon-deep px-6 py-3 text-[11px] font-bold uppercase tracking-[.14em] text-white shadow-[0_8px_24px_rgba(58,10,24,.35)] transition hover:-translate-y-0.5 hover:bg-maroon">Get a Quote <span className="ml-2 text-gold">→</span></Link>
+    <>
+      <div className="border-b border-gold/30 bg-[#5B0B1F] text-white">
+        <div className="mx-auto flex min-h-10 max-w-[1600px] items-center justify-between px-5 text-[11px] font-semibold uppercase tracking-[0.24em] lg:px-8">
+          <span>Aggie-Founded • Texas-Rooted • Client-Focused</span>
+          <span className="hidden md:block">
+            Independent Insurance Brokerage
+          </span>
         </div>
-        <MobileMenu />
       </div>
-    </header>
+
+      <header className="border-b border-white/10 bg-[#111820] text-white">
+        <div className="mx-auto flex min-h-[112px] max-w-[1600px] items-center gap-8 px-5 lg:px-8">
+          <Link href="/" className="shrink-0">
+            <Image
+              src="/logo-horizontal.png"
+              alt="Maroon Oak Brokerage"
+              width={520}
+              height={140}
+              priority
+              className="h-auto w-[250px] object-contain xl:w-[300px]"
+            />
+          </Link>
+
+          <nav className="hidden flex-1 items-center justify-center gap-6 xl:flex">
+            <Link
+              href="/"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Home
+            </Link>
+
+            <Link
+              href="/personal-insurance"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Personal
+            </Link>
+
+            <Link
+              href="/business-insurance"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Commercial
+            </Link>
+
+            <Link
+              href="/about"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              About
+            </Link>
+
+            <Link
+              href="/claims"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Claims
+            </Link>
+
+            <Link
+              href="/resources"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Resources
+            </Link>
+
+            <Link
+              href="/contact"
+              className="text-xs font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold"
+            >
+              Contact
+            </Link>
+          </nav>
+
+          <div className="ml-auto hidden shrink-0 items-center gap-5 lg:flex">
+            <a
+              href="tel:+17374778228"
+              className="flex items-center gap-3 text-base font-semibold text-white transition hover:text-gold"
+            >
+              <span className="text-gold">☎</span>
+              737-477-8228
+            </a>
+
+            <Link
+              href="/contact"
+              className="rounded-xl border border-gold bg-[#5B0B1F] px-6 py-4 text-sm font-bold uppercase tracking-[0.14em] text-white transition hover:-translate-y-0.5 hover:bg-[#6D1027]"
+            >
+              Get a Quote →
+            </Link>
+          </div>
+        </div>
+      </header>
+    </>
   );
 }
