@@ -37,7 +37,7 @@ export default function PhotoCard({
       ) : (
         <div className="absolute inset-0 bg-gradient-to-br from-maroon-deep to-maroon transition-transform duration-700 ease-out group-hover:scale-[1.08]">
           {Icon && (
-            <Icon className="absolute right-5 top-5 h-9 w-9 stroke-gold/40" />
+           <h3 className="mb-1.5 font-serif text-[17px] font-semibold text-white">
           )}
         </div>
       )}
