@@ -867,11 +867,41 @@ export const coreValues = [
 ];
 
 export const team = [
-  { initials: "CH", name: "Cole Hindes", role: "Founder & CEO", description: "Sets the agency's strategy and standard, and works directly with clients as an advisor." },
-  { initials: "CE", name: "Cade Edgar", role: "Chief Sales Officer", description: "Leads the sales team and works directly with clients to match coverage to their needs." },
-  { initials: "LB", name: "Luke Berry", role: "Chief Financial Officer", description: "Oversees the agency's financial operations, from budgeting to day-to-day accounting." },
-  { initials: "NN", name: "Nathan Norcross", role: "Chief Marketing Officer", description: "Leads marketing and brand strategy for Maroon Oak Brokerage." },
-  { initials: "NK", name: "Niko Kundivich", role: "Chief Operating Officer", description: "Oversees compliance, audits, and day-to-day operations." },
+  {
+    image: "/team/cole-hindes.jpg",
+    name: "Cole Hindes",
+    role: "Founder & CEO",
+    description:
+      "Sets the agency's strategy and standard, and works directly with clients as an advisor.",
+  },
+  {
+    image: "/team/cade-edgar.jpg",
+    name: "Cade Edgar",
+    role: "Chief Sales Officer",
+    description:
+      "Leads the sales team and works directly with clients to match coverage to their needs.",
+  },
+  {
+    image: "/team/luke-berry.jpg",
+    name: "Luke Berry",
+    role: "Chief Financial Officer",
+    description:
+      "Oversees the agency's financial operations, from budgeting to day-to-day accounting.",
+  },
+  {
+    image: "/team/nathan-norcross.jpg",
+    name: "Nathan Norcross",
+    role: "Chief Marketing Officer",
+    description:
+      "Leads marketing and brand strategy for Maroon Oak Brokerage.",
+  },
+  {
+    image: "/team/niko-kundivich.jpg",
+    name: "Niko Kundivich",
+    role: "Chief Operating Officer",
+    description:
+      "Oversees compliance, audits, and day-to-day operations.",
+  },
 ];
 
 // No fabricated reviews, ratings, or customer names/photos — replaced with an honest
