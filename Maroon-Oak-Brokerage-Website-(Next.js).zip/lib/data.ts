@@ -224,7 +224,7 @@ export const heroImages = {
   },
 
   businessTeamMeeting: {
-    url: "https://www.pexels.com/g/eyJkZXN0IjoiaHR0cHM6Ly93d3cuaXN0b2NrcGhvdG8uY29tL3Bob3RvL3dvcmtlcnMtYW5kLWJ1c2luZXNzbWFuLXRhbGtpbmctaW4tcXVhcnJ5LWdtMTY0ODUyODYxLTE2NDg1Mjg2MT91dG1fc291cmNlPXBleGVscyZ1dG1fbWVkaXVtPWFmZmlsaWF0ZSZ1dG1fY2FtcGFpZ249c3BvbnNvcmVkX3Bob3RvJnV0bV9jb250ZW50PXNycF9pbmxpbmVfcG9ydHJhaXRfbWVkaWEmdXRtX3Rlcm09Y29uc3RydWN0aW9uJTIwY3JldyIsImRhdGEiOnsiZXhwZXJpbWVudHMiOnsid2FsbHBhcGVyX3F1ZXJ5X3JvdXRpbmciOiJ0cmVhdG1lbnQifSwicGFnZV9sb2NhbGUiOiJlbi1VUyIsInBhZ2UiOiJzZWFyY2hfcmVzdWx0cyIsInBhZ2VfdmFyaWFudCI6InBob3RvcyIsImxvY2F0aW9uIjoiZ3JpZCIsImFkX3BhcnRuZXIiOiJnZXR0eSIsImFkX2Zvcm1hdCI6ImxhcmdlIiwiYWRfcGxhY2VtZW50IjoiMzAiLCJhZF9jcmVhdGl2ZSI6InBob3RvX3NlYXJjaF84IiwiYWRfYWN0aW9uIjoiY2xpY2siLCJhZF9pbXByZXNzaW9uX2lkIjoiZGVjNmZjZWYtODRkNC00NDViLWJjZWItZGU4OWZkNzM5ODhlIiwibWVkaWFfdHlwZSI6InBob3RvIiwicXVlcnkiOiJjb25zdHJ1Y3Rpb24gY3JldyJ9fQ/?h=1&du=8b47bf1a-229c-4916-b5b6-b72e66e0ab0a&dx=1&ds=c1a8af9e-e5a2-4a96-b624-9538734bde6f",
+    url: "https://images.pexels.com/photos/7693103/pexels-photo-7693103.jpeg",
     alt: "Business owners and advisors planning together",
     credit: "Unsplash",
   },
