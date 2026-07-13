@@ -152,47 +152,39 @@ export default function HomePage() {
               key={industry.label}
               href={industry.href}
               className="rounded-full border border-maroon/20 px-3.5 py-1.5 text-[12px] font-semibold text-maroon transition-colors duration-200 hover:border-maroon hover:bg-maroon/5"
-            >
-              {industry.label}
-            </Link>
-          ))}
+         {/* Meet Maroon Oak */}
+<ImageSplit
+  image={heroImages.officeMeeting}
+  eyebrow="Meet Maroon Oak"
+  title="Real Advisors, Not a Call Center"
+  ctaLabel="Meet the Team"
+  ctaHref="/about"
+>
+  <p className="mb-5">
+    Maroon Oak is built and run by a small team of licensed advisors who answer
+    the phone themselves &mdash; not a rotating queue of unfamiliar voices.
+  </p>
+
+  <div className="flex flex-wrap gap-4">
+    {team.slice(0, 4).map((member) => (
+      <div key={member.name} className="flex items-center gap-2.5">
+        <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-gold/30 shadow-sm">
+          <Image
+            src={member.image}
+            alt={member.name}
+            fill
+            sizes="36px"
+            className="object-cover object-top"
+          />
         </div>
-      </ImageSplit>
 
-      {/* Meet Maroon Oak */}
-      <ImageSplit
-        image={heroImages.officeMeeting}
-        eyebrow="Meet Maroon Oak"
-        title="Real Advisors, Not a Call Center"
-        ctaLabel="Meet the Team"
-        ctaHref="/about"
-      >
-        <p className="mb-5">
-          Maroon Oak is built and run by a small team of licensed advisors who answer the phone themselves &mdash;
-          not a rotating queue of unfamiliar voices.
-        </p>
-        <div className="flex flex-wrap gap-4">
-          {team.slice(0, 4).map((member) => (
-           <div key={member.name} className="flex items-center gap-2.5">
-  <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-gold/30 shadow-sm">
-    <Image
-      src={member.image}
-      alt={member.name}
-      fill
-      sizes="36px"
-      className="object-cover object-top"
-    />
+        <span className="text-[12.5px] font-medium text-charcoal">
+          {member.name}
+        </span>
+      </div>
+    ))}
   </div>
-
-  <span className="text-[12.5px] font-medium text-charcoal">
-    {member.name}
-  </span>
-</div>
-      </ImageSplit>
-
-      {/* Our Story band */}
-      <section className="relative overflow-hidden py-24 text-stone">
-        <Image
+</ImageSplit>
           src={heroImages.office.url}
           alt={heroImages.office.alt}
           fill
