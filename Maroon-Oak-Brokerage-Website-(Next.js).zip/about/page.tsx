@@ -105,7 +105,7 @@ export default function AboutPage() {
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
             An independent brokerage isn&rsquo;t tied to any single insurance company &mdash; our loyalty is to you.
           </p>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-5">
             <div className="rounded-lg border border-charcoal/10 bg-stone p-8">
               <h3 className="mb-2.5 font-serif text-xl font-semibold text-maroon">Customer-First, By Design</h3>
               <p className="font-sans text-sm text-[#55504a]">
@@ -132,27 +132,30 @@ export default function AboutPage() {
             Meet the People Behind Maroon Oak
           </h2>
           <div className="grid grid-cols-2 gap-6 md:grid-cols-5">
-            {team.map((member) => (
-  <div key={member.name} className="text-center">
-    <div className="relative mx-auto mb-4 h-28 w-28 overflow-hidden rounded-full border-4 border-white shadow-md">
+           {team.map((member) => (
+  <div
+    key={member.name}
+    className="group text-center"
+  >
+    <div className="relative mx-auto mb-5 h-32 w-32 overflow-hidden rounded-full border-4 border-white shadow-xl ring-2 ring-gold/25 transition-transform duration-300 group-hover:-translate-y-1 group-hover:scale-[1.03] sm:h-36 sm:w-36">
       <Image
         src={member.image}
         alt={`${member.name}, ${member.role}`}
         fill
-        sizes="112px"
-        className="object-cover object-top"
+        sizes="(max-width: 640px) 128px, 144px"
+        className="object-cover object-[center_18%] transition-transform duration-500 group-hover:scale-105"
       />
     </div>
 
-    <h3 className="mb-1 font-serif text-[16.5px] font-semibold text-maroon">
+    <h3 className="mb-1 font-serif text-lg font-semibold text-maroon sm:text-xl">
       {member.name}
     </h3>
 
-    <div className="mb-2 text-[11.5px] font-bold uppercase tracking-wide text-gold-dim">
+    <div className="mb-3 min-h-[32px] text-[11px] font-bold uppercase leading-snug tracking-[0.12em] text-gold-dim">
       {member.role}
     </div>
 
-    <p className="font-sans text-[12.5px] text-[#55504a]">
+    <p className="mx-auto max-w-[220px] font-sans text-[13px] leading-relaxed text-[#55504a]">
       {member.description}
     </p>
   </div>
