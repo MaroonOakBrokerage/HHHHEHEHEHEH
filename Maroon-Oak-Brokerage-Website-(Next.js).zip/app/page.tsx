@@ -173,14 +173,21 @@ export default function HomePage() {
         </p>
         <div className="flex flex-wrap gap-4">
           {team.slice(0, 4).map((member) => (
-            <div key={member.name} className="flex items-center gap-2.5">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-gold to-maroon font-serif text-xs font-semibold text-stone">
-                {member.initials}
-              </div>
-              <span className="text-[12.5px] font-medium text-charcoal">{member.name}</span>
-            </div>
-          ))}
-        </div>
+           <div key={member.name} className="flex items-center gap-2.5">
+  <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-gold/30 shadow-sm">
+    <Image
+      src={member.image}
+      alt={member.name}
+      fill
+      sizes="36px"
+      className="object-cover object-top"
+    />
+  </div>
+
+  <span className="text-[12.5px] font-medium text-charcoal">
+    {member.name}
+  </span>
+</div>
       </ImageSplit>
 
       {/* Our Story band */}
