@@ -109,12 +109,11 @@ jobs:
           fi
 
           echo "All 25 photographs passed verification."
-
- - name: Set up Node.js
-  uses: actions/setup-node@v5
-  with:
-    node-version: 24
-    package-manager-cache: false
+                - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          package-manager-cache: false
 
       - name: Install dependencies
         working-directory: "${{ env.PROJECT_DIR }}"
