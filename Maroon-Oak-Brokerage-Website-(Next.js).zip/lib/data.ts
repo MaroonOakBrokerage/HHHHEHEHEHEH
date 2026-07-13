@@ -868,35 +868,35 @@ export const coreValues = [
 
 export const team = [
   {
-    image: "/team/cole-hindes.jpg",
+    image: "/Team/cole-hindes.jpg",
     name: "Cole Hindes",
     role: "Founder & CEO",
     description:
       "Sets the agency's strategy and standard, and works directly with clients as an advisor.",
   },
   {
-    image: "/team/cade-edgar.jpg",
+    image: "/Team/cade-edgar.jpg",
     name: "Cade Edgar",
     role: "Chief Sales Officer",
     description:
       "Leads the sales team and works directly with clients to match coverage to their needs.",
   },
   {
-    image: "/team/luke-berry.jpg",
+    image: "/Team/luke-berry.jpg",
     name: "Luke Berry",
     role: "Chief Financial Officer",
     description:
       "Oversees the agency's financial operations, from budgeting to day-to-day accounting.",
   },
   {
-    image: "/team/nathan-norcross.jpg",
+    image: "/Team/nathan-norcross.jpg",
     name: "Nathan Norcross",
     role: "Chief Marketing Officer",
     description:
       "Leads marketing and brand strategy for Maroon Oak Brokerage.",
   },
   {
-    image: "/team/niko-kundivich.jpg",
+    image: "/Team/niko-kundivich.jpg",
     name: "Niko Kundivich",
     role: "Chief Operating Officer",
     description:
