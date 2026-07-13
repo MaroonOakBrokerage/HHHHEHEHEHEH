@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import ValuesExplorer from "@/components/ValuesExplorer";
 import ContinueExploring from "@/components/ContinueExploring";
@@ -131,31 +131,27 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-2 gap-6 md:grid-cols-5">
             {team.map((member) => (
-              <div key={member.name} className="text-center">
-                <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-gradient-to-br from-gold to-maroon font-serif text-[28px] font-semibold text-stone shadow-sm">
-                  {member.initials}
-                </div>
-                <h3 className="mb-1 font-serif text-[16.5px] font-semibold text-maroon">{member.name}</h3>
-                <div className="mb-2 text-[11.5px] font-bold uppercase tracking-wide text-gold-dim">{member.role}</div>
-                <p className="font-sans text-[12.5px] text-[#55504a]">{member.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <ContinueExploring
-        items={[
-          { label: "Personal Insurance", description: "See coverage for your auto, home, family, and more.", href: "/personal-insurance" },
-          { label: "Business Insurance", description: "Explore commercial coverage built around how you operate.", href: "/business-insurance" },
-          { label: "Claims", description: "Understand how claims work and what to do first.", href: "/claims" },
-        ]}
+  <div key={member.name} className="text-center">
+    <div className="relative mx-auto mb-4 h-28 w-28 overflow-hidden rounded-full border-4 border-white shadow-md">
+      <Image
+        src={member.image}
+        alt={`${member.name}, ${member.role}`}
+        fill
+        sizes="112px"
+        className="object-cover object-top"
       />
+    </div>
 
-      <CTASection
-        title="Let's Start the Conversation."
-        description="Whether you're protecting your family, your home, or your business, we're here to help you find the right coverage with confidence."
-      />
-    </>
-  );
-}
+    <h3 className="mb-1 font-serif text-[16.5px] font-semibold text-maroon">
+      {member.name}
+    </h3>
+
+    <div className="mb-2 text-[11.5px] font-bold uppercase tracking-wide text-gold-dim">
+      {member.role}
+    </div>
+
+    <p className="font-sans text-[12.5px] text-[#55504a]">
+      {member.description}
+    </p>
+  </div>
+))}
