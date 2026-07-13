@@ -140,10 +140,9 @@ jobs:
             git commit -m "Replace coverage placeholders with real photography"
             git push
           fi
-
-           - name: Install dependencies
+      - name: Install dependencies
         working-directory: "${{ env.PROJECT_DIR }}"
-          run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Build website
         working-directory: "${{ env.PROJECT_DIR }}"
