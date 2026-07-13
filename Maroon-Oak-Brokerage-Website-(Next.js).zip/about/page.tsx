@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
 import PageHero from "@/components/PageHero";
 import ValuesExplorer from "@/components/ValuesExplorer";
 import ContinueExploring from "@/components/ContinueExploring";
