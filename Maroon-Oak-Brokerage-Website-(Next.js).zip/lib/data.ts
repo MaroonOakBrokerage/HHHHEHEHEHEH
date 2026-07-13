@@ -134,7 +134,7 @@ export const heroImages = {
   },
 
   planningSession: {
-    url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2200&q=85",
+    url: "https://images.pexels.com/photos/10375908/pexels-photo-10375908.jpeg",
     alt: "Professionals reviewing plans and documents together",
     credit: "Unsplash",
   },
