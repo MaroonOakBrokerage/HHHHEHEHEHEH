@@ -108,12 +108,38 @@ jobs:
             exit 1
           fi
 
-          echo "All 25 photographs passed verification."
-                - name: Set up Node.js
+                 echo "All 25 photographs passed verification."
+
+      - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 24
           package-manager-cache: false
+
+      - name: Install dependencies
+        working-directory: "${{ env.PROJECT_DIR }}"
+        run: npm ci --legacy-peer-deps
+
+      - name: Build website
+        working-directory: "${{ env.PROJECT_DIR }}"
+        run: npm run build
+
+      - name: Commit and push photographs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${PROJECT_DIR}/public/coverage"
+
+          if git diff --cached --quiet; then
+            echo "No photograph changes to commit."
+          else
+            git commit -m "Replace coverage placeholders with real photography"
+            git push
+          fi
 
       - name: Install dependencies
         working-directory: "${{ env.PROJECT_DIR }}"
