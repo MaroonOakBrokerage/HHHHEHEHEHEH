@@ -194,7 +194,7 @@ export const heroImages = {
   },
 
   warehouseBoxes: {
-    url: "https://images.unsplash.com/photo-1586528116493-da8b8f578c58?auto=format&fit=crop&w=2200&q=85",
+    url: "https://images.pexels.com/photos/4487383/pexels-photo-4487383.jpeg",
     alt: "Commercial warehouse with inventory and shipments",
     credit: "Unsplash",
   },
