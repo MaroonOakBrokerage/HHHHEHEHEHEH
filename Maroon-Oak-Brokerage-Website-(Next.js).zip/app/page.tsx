@@ -172,7 +172,7 @@ export default function HomePage() {
           not a rotating queue of unfamiliar voices.
         </p>
         <div className="flex flex-wrap gap-4">
-          {team.slice(0, 4).map((member) => (
+          {team.slice(0, 5).map((member) => (
             <div key={member.name} className="flex items-center gap-2.5">
               <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-gold/30 shadow-sm">
                 <Image
