@@ -37,20 +37,32 @@ export default function ContactPage() {
         subtitle="Whether you're protecting your family, your home, or your business, we're here to help you find the right coverage with confidence."
       />
 
-      <section id="quote" className="scroll-mt-24 bg-white py-24">
-        <div className="mx-auto max-w-[1200px] px-8">
-          <div className="grid grid-cols-1 gap-14 md:grid-cols-[0.85fr_1.15fr]">
-            <div>
-              <div className="rounded-lg border border-charcoal/10 bg-white p-8">
-                <h3 className="mb-5 font-serif text-xl font-semibold text-maroon">Get In Touch</h3>
+      <section
+        id="quote"
+        className="scroll-mt-40 bg-white py-10 md:py-24"
+      >
+        <div className="mx-auto max-w-[1200px] px-5 md:px-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-[0.85fr_1.15fr] md:gap-14">
+            <div className="order-2 md:order-1">
+              <div className="rounded-lg border border-charcoal/10 bg-white p-6 md:p-8">
+                <h3 className="mb-5 font-serif text-xl font-semibold text-maroon">
+                  Get In Touch
+                </h3>
 
                 <div className="mb-6 flex items-start gap-4">
                   <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-maroon/[0.06]">
                     <PhoneIcon className="h-[18px] w-[18px] stroke-maroon" />
                   </div>
+
                   <div>
-                    <strong className="mb-0.5 block font-serif text-[14.5px] text-maroon">Phone</strong>
-                    <a href={`tel:${siteConfig.phoneTel}`} className="font-sans text-sm text-[#55504a] hover:text-maroon">
+                    <strong className="mb-0.5 block font-serif text-[14.5px] text-maroon">
+                      Phone
+                    </strong>
+
+                    <a
+                      href={`tel:${siteConfig.phoneTel}`}
+                      className="font-sans text-sm text-[#55504a] hover:text-maroon"
+                    >
                       {siteConfig.phoneDisplay}
                     </a>
                   </div>
@@ -60,9 +72,16 @@ export default function ContactPage() {
                   <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-maroon/[0.06]">
                     <MailIcon className="h-[18px] w-[18px] stroke-maroon" />
                   </div>
+
                   <div>
-                    <strong className="mb-0.5 block font-serif text-[14.5px] text-maroon">Email</strong>
-                    <a href={`mailto:${siteConfig.email}`} className="font-sans text-sm text-[#55504a] hover:text-maroon">
+                    <strong className="mb-0.5 block font-serif text-[14.5px] text-maroon">
+                      Email
+                    </strong>
+
+                    <a
+                      href={`mailto:${siteConfig.email}`}
+                      className="font-sans text-sm text-[#55504a] hover:text-maroon"
+                    >
                       {siteConfig.email}
                     </a>
                   </div>
@@ -104,7 +123,9 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <QuoteForm />
+            <div className="order-1 md:order-2">
+  <QuoteForm />
+</div>
           </div>
         </div>
       </section>
