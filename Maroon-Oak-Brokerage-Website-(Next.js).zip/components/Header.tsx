@@ -78,7 +78,7 @@ export default function Header() {
             </Link>
           </nav>
 
-          <div className="ml-auto hidden shrink-0 items-center gap-4 lg:flex">
+                   <div className="ml-auto hidden shrink-0 items-center gap-4 lg:flex">
             <a
               href="tel:+17374778228"
               className="flex items-center gap-2 whitespace-nowrap text-sm font-semibold text-white transition hover:text-gold xl:text-base"
@@ -94,7 +94,11 @@ export default function Header() {
               Get a Quote →
             </Link>
           </div>
-        </div>
+
+          <div className="ml-auto lg:hidden">
+            <MobileMenu />
+          </div>
+          </div>
       </header>
     </>
   );
