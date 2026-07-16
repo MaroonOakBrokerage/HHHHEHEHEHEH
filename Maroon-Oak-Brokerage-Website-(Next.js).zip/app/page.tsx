@@ -13,7 +13,14 @@ import CTASection from "@/components/CTASection";
 import ContinueExploring from "@/components/ContinueExploring";
 import ImageSplit from "@/components/ImageSplit";
 import Reveal from "@/components/Reveal";
-import { CheckCircleIcon, HandshakeIcon, ShieldIcon, ClockIcon, PinIcon, DocumentIcon } from "@/components/Icons";
+import {
+  CheckCircleIcon,
+  HandshakeIcon,
+  ShieldIcon,
+  ClockIcon,
+  PinIcon,
+  DocumentIcon,
+} from "@/components/Icons";
 import { OakRingAccent } from "@/components/SectionDivider";
 import {
   homeFaqs,
@@ -31,44 +38,77 @@ import {
 export default function HomePage() {
   return (
     <>
-      {/* Hero: literal headline + floating glass quote card */}
+      {/* Hero */}
       <Hero />
 
       {/* Quiet credibility band */}
       <TrustStrip />
 
-      {/* Why Clients Choose Maroon Oak — the six pillars: understanding, education,
-          relationships, long-term partnership, no pressure, independent advice. */}
-      <section className="bg-stone py-24">
-        <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Why Maroon Oak</p>
+      {/* Why Clients Choose Maroon Oak */}
+      <section className="bg-stone py-14 md:py-24">
+        <div className="mx-auto max-w-[1200px] px-5 md:px-8">
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Why Maroon Oak
+          </p>
+
           <h2 className="mx-auto mb-5 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             Why Clients Choose Maroon Oak
           </h2>
+
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
-            Every recommendation begins with listening. As an independent brokerage, our loyalty is to you — not to
-            any single carrier.
+            Every recommendation begins with listening. As an independent
+            brokerage, our loyalty is to you — not to any single carrier.
           </p>
+
           <Reveal className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            <Card icon={<CheckCircleIcon className="w-6 h-6 stroke-maroon" />} title="Understanding First">
-              We never recommend before we&rsquo;ve listened. Every relationship starts with your goals — not our
-              product list.
+            <Card
+              icon={
+                <CheckCircleIcon className="h-6 w-6 stroke-maroon" />
+              }
+              title="Understanding First"
+            >
+              We never recommend before we&rsquo;ve listened. Every relationship
+              starts with your goals — not our product list.
             </Card>
-            <Card icon={<ShieldIcon className="w-6 h-6 stroke-maroon" />} title="Real Education">
-              Plain-language answers about your coverage, before we ever discuss premiums or push a policy.
+
+            <Card
+              icon={<ShieldIcon className="h-6 w-6 stroke-maroon" />}
+              title="Real Education"
+            >
+              Plain-language answers about your coverage, before we ever discuss
+              premiums or push a policy.
             </Card>
-            <Card icon={<HandshakeIcon className="w-6 h-6 stroke-maroon" />} title="Genuine Relationships">
-              One advisor who actually knows your account — not a call center or a rotating queue.
+
+            <Card
+              icon={<HandshakeIcon className="h-6 w-6 stroke-maroon" />}
+              title="Genuine Relationships"
+            >
+              One advisor who actually knows your account — not a call center or
+              a rotating queue.
             </Card>
-            <Card icon={<ClockIcon className="w-6 h-6 stroke-maroon" />} title="Long-Term Partnership">
-              Our goal isn&rsquo;t to become one of the largest brokerages. It&rsquo;s to become one of the most
-              trusted.
+
+            <Card
+              icon={<ClockIcon className="h-6 w-6 stroke-maroon" />}
+              title="Long-Term Partnership"
+            >
+              Our goal isn&rsquo;t to become one of the largest brokerages.
+              It&rsquo;s to become one of the most trusted.
             </Card>
-            <Card icon={<PinIcon className="w-6 h-6 stroke-maroon" />} title="No Pressure, Ever">
-              We give you the facts and the time to decide. No scripts, no quotas, no rushed decisions.
+
+            <Card
+              icon={<PinIcon className="h-6 w-6 stroke-maroon" />}
+              title="No Pressure, Ever"
+            >
+              We give you the facts and the time to decide. No scripts, no
+              quotas, no rushed decisions.
             </Card>
-            <Card icon={<HandshakeIcon className="w-6 h-6 stroke-maroon" />} title="Independent Advice">
-              Access to multiple carriers means our only loyalty is to you, wherever you are in Texas.
+
+            <Card
+              icon={<HandshakeIcon className="h-6 w-6 stroke-maroon" />}
+              title="Independent Advice"
+            >
+              Access to multiple carriers means our only loyalty is to you,
+              wherever you are in Texas.
             </Card>
           </Reveal>
         </div>
@@ -77,38 +117,53 @@ export default function HomePage() {
       {/* Guided explorer */}
       <section className="bg-white py-24">
         <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Find Your Coverage</p>
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Find Your Coverage
+          </p>
+
           <h2 className="mx-auto mb-5 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             What Are You Looking to Protect?
           </h2>
+
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
-            Choose what matters most to you, and we&rsquo;ll point you to the coverage that fits.
+            Choose what matters most to you, and we&rsquo;ll point you to the
+            coverage that fits.
           </p>
+
           <ExplorerTiles tiles={explorerTiles} />
         </div>
       </section>
 
       {/* How it works */}
-      <section id="how-it-works" className="scroll-mt-24 bg-stone py-24">
+      <section
+        id="how-it-works"
+        className="scroll-mt-24 bg-stone py-24"
+      >
         <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">How It Works</p>
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            How It Works
+          </p>
+
           <h2 className="mx-auto mb-5 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             A Simple, Honest Process
           </h2>
+
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
-            No pressure, no jargon — just a clear path from a conversation to coverage you understand.
+            No pressure, no jargon — just a clear path from a conversation to
+            coverage you understand.
           </p>
+
           <ProcessSteps steps={processSteps} />
         </div>
       </section>
 
-      {/* What we cover — large photography-led Personal / Commercial cards */}
+      {/* Personal and commercial cards */}
       <PersonalCommercialCards />
 
       {/* Carrier logo strip */}
       <CarrierLogos />
 
-      {/* Life Events We Help Protect */}
+      {/* Life Events */}
       <ImageSplit
         image={heroImages.livingRoomAlt}
         eyebrow="Life Events We Help Protect"
@@ -117,9 +172,10 @@ export default function HomePage() {
         ctaHref="/personal-insurance"
       >
         <p className="mb-5">
-          Buying a home, getting married, growing a family, sending a kid to college &mdash; every milestone changes
-          what you need to protect.
+          Buying a home, getting married, growing a family, sending a kid to
+          college &mdash; every milestone changes what you need to protect.
         </p>
+
         <div className="flex flex-wrap gap-2">
           {lifeEvents.slice(0, 6).map((event) => (
             <Link
@@ -133,7 +189,7 @@ export default function HomePage() {
         </div>
       </ImageSplit>
 
-      {/* Industries We Help */}
+      {/* Industries */}
       <ImageSplit
         image={heroImages.contractorSite}
         eyebrow="Industries We Help"
@@ -143,9 +199,11 @@ export default function HomePage() {
         ctaHref="/business-insurance"
       >
         <p className="mb-5">
-          From contractors and trades to restaurants, retail, and professional offices, we build coverage around the
-          real risks of your industry &mdash; not a generic package.
+          From contractors and trades to restaurants, retail, and professional
+          offices, we build coverage around the real risks of your industry
+          &mdash; not a generic package.
         </p>
+
         <div className="flex flex-wrap gap-2">
           {industries.slice(0, 6).map((industry) => (
             <Link
@@ -168,9 +226,11 @@ export default function HomePage() {
         ctaHref="/about"
       >
         <p className="mb-5">
-          Maroon Oak is built and run by a small team of licensed advisors who answer the phone themselves &mdash;
-          not a rotating queue of unfamiliar voices.
+          Maroon Oak is built and run by a small team of licensed advisors who
+          answer the phone themselves &mdash; not a rotating queue of unfamiliar
+          voices.
         </p>
+
         <div className="flex flex-wrap gap-4">
           {team.slice(0, 5).map((member) => (
             <div key={member.name} className="flex items-center gap-2.5">
@@ -183,13 +243,16 @@ export default function HomePage() {
                   className="object-cover object-top"
                 />
               </div>
-              <span className="text-[12.5px] font-medium text-charcoal">{member.name}</span>
+
+              <span className="text-[12.5px] font-medium text-charcoal">
+                {member.name}
+              </span>
             </div>
           ))}
         </div>
       </ImageSplit>
 
-      {/* Our Story band */}
+      {/* Our Story */}
       <section className="relative overflow-hidden py-24 text-stone">
         <Image
           src={heroImages.office.url}
@@ -198,27 +261,51 @@ export default function HomePage() {
           sizes="100vw"
           className="object-cover"
         />
+
         <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(58,10,24,0.94)_0%,rgba(14,12,11,0.90)_55%,rgba(14,12,11,0.75)_100%)]" />
+
         <span className="absolute bottom-3 right-4 z-10 text-[10px] text-stone/30">
           Photo: {heroImages.office.credit}
         </span>
+
         <div className="relative z-10 mx-auto max-w-[1200px] px-8">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
             <div>
-              <p className="mb-4 text-xs font-bold uppercase tracking-[3px] text-gold">Our Story</p>
-              <h2 className="mb-5 font-serif text-3xl font-semibold md:text-[38px]">Rooted in Texas. Built on Trust.</h2>
-              <p className="mb-6 font-sans text-stone/82">
-                Maroon Oak Brokerage was founded on the belief that insurance should be built on relationships, not
-                transactions. Our mission is to protect what matters most by first understanding the people we serve.
+              <p className="mb-4 text-xs font-bold uppercase tracking-[3px] text-gold">
+                Our Story
               </p>
-              <p className="mb-8 font-serif text-[15px] italic text-gold">{siteConfig.heritage.line}</p>
-              <Button href="/about" variant="outline-dark">Read Our Story</Button>
+
+              <h2 className="mb-5 font-serif text-3xl font-semibold md:text-[38px]">
+                Rooted in Texas. Built on Trust.
+              </h2>
+
+              <p className="mb-6 font-sans text-stone/82">
+                Maroon Oak Brokerage was founded on the belief that insurance
+                should be built on relationships, not transactions. Our mission
+                is to protect what matters most by first understanding the people
+                we serve.
+              </p>
+
+              <p className="mb-8 font-serif text-[15px] italic text-gold">
+                {siteConfig.heritage.line}
+              </p>
+
+              <Button href="/about" variant="outline-dark">
+                Read Our Story
+              </Button>
             </div>
+
             <div className="grid grid-cols-2 gap-5">
               <StatBlock value="2026" label="Founded in Austin, Texas" />
-              <StatBlock value="Texas" label="Serving clients statewide, remotely" />
+              <StatBlock
+                value="Texas"
+                label="Serving clients statewide, remotely"
+              />
               <StatBlock value="1 Day" label="Response-time standard" />
-              <StatBlock value="25+" label="Personal &amp; commercial coverage lines" />
+              <StatBlock
+                value="25+"
+                label="Personal &amp; commercial coverage lines"
+              />
             </div>
           </div>
         </div>
@@ -227,21 +314,36 @@ export default function HomePage() {
       {/* What You Can Expect */}
       <section className="bg-stone py-24">
         <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Our Standard</p>
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Our Standard
+          </p>
+
           <h2 className="mx-auto mb-5 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             What You Can Expect
           </h2>
+
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
-            Maroon Oak is a newly founded independent brokerage. Rather than publish reviews we haven&rsquo;t
-            earned yet, here&rsquo;s the standard we hold ourselves to with every client.
+            Maroon Oak is a newly founded independent brokerage. Rather than
+            publish reviews we haven&rsquo;t earned yet, here&rsquo;s the
+            standard we hold ourselves to with every client.
           </p>
+
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {whatYouCanExpect.map((item) => (
-              <div key={item.title} className="flex gap-4 rounded-lg border border-charcoal/10 bg-white p-6">
+              <div
+                key={item.title}
+                className="flex gap-4 rounded-lg border border-charcoal/10 bg-white p-6"
+              >
                 <CheckCircleIcon className="mt-0.5 h-5 w-5 flex-shrink-0 stroke-gold-dim" />
+
                 <div>
-                  <h3 className="mb-1.5 font-serif text-[15px] font-semibold text-maroon">{item.title}</h3>
-                  <p className="font-sans text-[13.5px] text-[#55504a]">{item.description}</p>
+                  <h3 className="mb-1.5 font-serif text-[15px] font-semibold text-maroon">
+                    {item.title}
+                  </h3>
+
+                  <p className="font-sans text-[13.5px] text-[#55504a]">
+                    {item.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -252,45 +354,76 @@ export default function HomePage() {
       {/* Carrier network */}
       <section className="bg-white py-24">
         <div className="mx-auto max-w-[820px] px-8 text-center">
-          <p className="mb-4 text-xs font-bold uppercase tracking-[3px] text-gold-dim">Carrier Access</p>
+          <p className="mb-4 text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Carrier Access
+          </p>
+
           <h2 className="mb-5 font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             Independent Access, Not One Company&rsquo;s Product
           </h2>
-          <p className="font-sans text-[17px] text-[#55504a]">{siteConfig.carrierStatement}</p>
+
+          <p className="font-sans text-[17px] text-[#55504a]">
+            {siteConfig.carrierStatement}
+          </p>
         </div>
       </section>
 
-      {/* Educational resources teaser */}
+      {/* Educational resources */}
       <section className="bg-stone py-24">
         <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Learn Before You Buy</p>
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Learn Before You Buy
+          </p>
+
           <h2 className="mx-auto mb-5 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             Educational Resources
           </h2>
+
           <p className="mx-auto mb-14 max-w-[640px] text-center font-sans text-[17px] text-[#55504a]">
-            Understanding First isn&rsquo;t a tagline &mdash; it&rsquo;s why we publish plain-language guides before
-            we ever talk price.
+            Understanding First isn&rsquo;t a tagline &mdash; it&rsquo;s why we
+            publish plain-language guides before we ever talk price.
           </p>
+
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            {resourceArticles.slice(0, 3).map((a) => (
-              <div key={a.title} className="group overflow-hidden rounded-lg border border-charcoal/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-gold/30 hover:shadow-md">
+            {resourceArticles.slice(0, 3).map((article) => (
+              <div
+                key={article.title}
+                className="group overflow-hidden rounded-lg border border-charcoal/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-gold/30 hover:shadow-md"
+              >
                 <div className="relative flex h-[154px] items-center justify-center overflow-hidden bg-gradient-to-br from-maroon-deep to-maroon">
                   <OakRingAccent className="pointer-events-none absolute -bottom-8 -right-8 h-32 w-32 text-gold/10" />
+
                   <DocumentIcon className="relative h-10 w-10 stroke-gold/80 transition-transform duration-300 group-hover:scale-110" />
                 </div>
+
                 <div className="p-6">
-                  <div className="mb-2.5 text-[10.5px] font-bold uppercase tracking-wide text-gold-dim">{a.category}</div>
-                  <h3 className="mb-2.5 font-serif text-[17px] font-semibold text-maroon">{a.title}</h3>
-                  <p className="mb-4 font-sans text-[13.5px] text-[#55504a]">{a.description}</p>
-                  <Link href={`/resources/${a.slug}`} className="text-xs font-bold uppercase tracking-wide text-gold-dim transition-colors duration-200 hover:text-maroon">
+                  <div className="mb-2.5 text-[10.5px] font-bold uppercase tracking-wide text-gold-dim">
+                    {article.category}
+                  </div>
+
+                  <h3 className="mb-2.5 font-serif text-[17px] font-semibold text-maroon">
+                    {article.title}
+                  </h3>
+
+                  <p className="mb-4 font-sans text-[13.5px] text-[#55504a]">
+                    {article.description}
+                  </p>
+
+                  <Link
+                    href={`/resources/${article.slug}`}
+                    className="text-xs font-bold uppercase tracking-wide text-gold-dim transition-colors duration-200 hover:text-maroon"
+                  >
                     Read the Guide &rarr;
                   </Link>
                 </div>
               </div>
             ))}
           </div>
+
           <div className="mt-10 text-center">
-            <Button href="/resources" variant="outline">Visit the Resource Library</Button>
+            <Button href="/resources" variant="outline">
+              Visit the Resource Library
+            </Button>
           </div>
         </div>
       </section>
@@ -298,21 +431,42 @@ export default function HomePage() {
       {/* FAQ */}
       <section className="bg-white py-24">
         <div className="mx-auto max-w-[1200px] px-8">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">Common Questions</p>
+          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[3px] text-gold-dim">
+            Common Questions
+          </p>
+
           <h2 className="mx-auto mb-14 max-w-[720px] text-center font-serif text-3xl font-semibold text-maroon md:text-[38px]">
             Frequently Asked Questions
           </h2>
+
           <FAQAccordion
-            items={homeFaqs.map((f) => ({ q: f.q, a: f.a }))}
+            items={homeFaqs.map((faq) => ({
+              q: faq.q,
+              a: faq.a,
+            }))}
           />
         </div>
       </section>
 
       <ContinueExploring
         items={[
-          { label: "Personal Insurance", description: "Auto, home, life, and more — matched to your household.", href: "/personal-insurance" },
-          { label: "Business Insurance", description: "Coverage built around how your business actually operates.", href: "/business-insurance" },
-          { label: "Claims", description: "See how claims work and what to do first.", href: "/claims" },
+          {
+            label: "Personal Insurance",
+            description:
+              "Auto, home, life, and more — matched to your household.",
+            href: "/personal-insurance",
+          },
+          {
+            label: "Business Insurance",
+            description:
+              "Coverage built around how your business actually operates.",
+            href: "/business-insurance",
+          },
+          {
+            label: "Claims",
+            description: "See how claims work and what to do first.",
+            href: "/claims",
+          },
         ]}
       />
 
