@@ -17,51 +17,60 @@ export default function MobileMenu() {
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
         onClick={toggleOpen}
-        className="relative flex h-10 w-10 items-center justify-center rounded-full transition-colors duration-200 hover:bg-maroon/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        className="relative flex h-11 w-11 items-center justify-center rounded-xl transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
       >
-        <span className="relative block h-[14px] w-5" aria-hidden="true">
+        <span className="relative block h-[16px] w-6">
           <span
-            className={`absolute left-0 top-0 h-[1.5px] w-5 rounded-full bg-maroon transition-all duration-300 ease-out motion-reduce:transition-none ${
-              open ? "top-[6px] rotate-45" : ""
+            className={`absolute left-0 top-0 h-0.5 w-6 rounded-full bg-white transition-all duration-300 ${
+              open ? "top-[7px] rotate-45" : ""
             }`}
           />
+
           <span
-            className={`absolute left-0 top-[6px] h-[1.5px] w-5 rounded-full bg-maroon transition-opacity duration-200 ${
+            className={`absolute left-0 top-[7px] h-0.5 w-6 rounded-full bg-white transition-all duration-200 ${
               open ? "opacity-0" : "opacity-100"
             }`}
           />
+
           <span
-            className={`absolute left-0 top-3 h-[1.5px] w-5 rounded-full bg-maroon transition-all duration-300 ease-out motion-reduce:transition-none ${
-              open ? "top-[6px] -rotate-45" : ""
+            className={`absolute left-0 top-[14px] h-0.5 w-6 rounded-full bg-white transition-all duration-300 ${
+              open ? "top-[7px] -rotate-45" : ""
             }`}
           />
         </span>
       </button>
 
       {open && (
-        <div className="fixed inset-0 top-24 z-50 overflow-y-auto bg-stone motion-safe:animate-fadeUp">
-          <nav className="flex flex-col px-8 py-6">
-            {navItems.map((item, i) => (
+        <div className="fixed inset-0 top-[76px] z-50 overflow-y-auto bg-[#111820] text-white">
+          <nav className="flex flex-col px-6 py-8">
+            {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                style={{ animationDelay: `${i * 40}ms` }}
-                className={`motion-safe:animate-fadeUp border-b border-maroon/10 py-4 text-base font-semibold uppercase tracking-wide transition-colors duration-200 ${
-                  pathname === item.href ? "text-maroon" : "text-charcoal"
+                className={`border-b border-white/10 py-5 text-lg font-semibold transition ${
+                  pathname === item.href
+                    ? "text-gold"
+                    : "text-white hover:text-gold"
                 }`}
               >
                 {item.label}
               </Link>
             ))}
+
             <a
               href={`tel:${siteConfig.phoneTel}`}
-              className="mt-6 flex items-center gap-2 font-bold text-maroon"
+              className="mt-8 flex items-center gap-3 text-lg font-semibold text-white"
             >
-              <PhoneIcon className="w-4 h-4" />
+              <PhoneIcon className="h-5 w-5 text-gold" />
               {siteConfig.phoneDisplay}
             </a>
-            <Button href="/contact#quote" onClick={() => setOpen(false)} className="mt-6 w-full">
+
+            <Button
+              href="/contact#quote"
+              onClick={() => setOpen(false)}
+              className="mt-6 w-full"
+            >
               Get a Quote
             </Button>
           </nav>
