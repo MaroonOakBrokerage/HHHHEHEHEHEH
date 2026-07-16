@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
+
 export default function Header() {
   return (
     <>
@@ -15,7 +16,7 @@ export default function Header() {
       </div>
 
       <header className="border-b border-white/10 bg-[#111820] text-white">
-        <div className="mx-auto flex min-h-[112px] max-w-[1600px] items-center gap-5 px-5 lg:px-8">
+        <div className="mx-auto flex min-h-[76px] max-w-[1600px] items-center gap-5 px-5 lg:min-h-[112px] lg:px-8">
           <Link href="/" className="shrink-0">
             <Image
               src="/logo-horizontal.png"
@@ -23,7 +24,7 @@ export default function Header() {
               width={520}
               height={140}
               priority
-              className="h-auto w-[220px] object-contain xl:w-[270px]"
+              className="h-auto w-[170px] object-contain sm:w-[200px] xl:w-[270px]"
             />
           </Link>
 
@@ -78,7 +79,7 @@ export default function Header() {
             </Link>
           </nav>
 
-                   <div className="ml-auto hidden shrink-0 items-center gap-4 lg:flex">
+          <div className="ml-auto hidden shrink-0 items-center gap-4 lg:flex">
             <a
               href="tel:+17374778228"
               className="flex items-center gap-2 whitespace-nowrap text-sm font-semibold text-white transition hover:text-gold xl:text-base"
@@ -98,7 +99,7 @@ export default function Header() {
           <div className="ml-auto lg:hidden">
             <MobileMenu />
           </div>
-          </div>
+        </div>
       </header>
     </>
   );
